@@ -1,0 +1,299 @@
+Concurrent Trade Matching Platform - Updated Project Roadmap
+
+Goal:
+Build a high-performance, concurrent backend trading system in C++ that demonstrates backend architecture, design patterns, concurrency, performance engineering, and structured service-to-service messaging using RPC and Protocol Buffers.
+
+Core Requirements:
+- C++ heavy implementation
+- Backend-oriented architecture
+- Builder Pattern at least once
+- Factory Pattern at least once
+- Follow Dependency Inversion Principle (DIP)
+- Concurrency as a core part of the design
+- Performance benchmarking as a required deliverable
+- RPC + Protocol Buffers as a required communication layer
+- Unit, integration, concurrency, and performance testing
+- Persistence layer behind interfaces
+- Professional documentation
+
+Important Design Choice for Builder Pattern:
+Use the Builder Pattern for an EngineConfig / ServiceConfig object.
+Why:
+- In real backend systems, configuration objects are often the most natural and realistic place to use Builder
+- They usually have many optional settings
+- It keeps setup code readable and maintainable
+- It feels more production-like than forcing Builder onto a simple object
+
+Example builder target:
+- EngineConfig
+  - worker thread count
+  - queue capacity
+  - persistence mode
+  - logging level
+  - metrics enabled/disabled
+  - matching strategy
+  - RPC port
+  - database connection string
+
+You can still optionally use Builder for Order creation too, but EngineConfigBuilder should be the primary required Builder usage.
+
+--------------------------------------------------
+PHASE 0: Setup & Planning (2-3 days)
+--------------------------------------------------
+- Define project scope and requirements
+- Choose tech stack:
+  - C++20
+  - CMake
+  - gRPC
+  - Protocol Buffers
+  - Crow/Pistache (optional REST for manual testing)
+  - SQLite initially
+  - PostgreSQL later (optional upgrade)
+  - GoogleTest
+  - Docker
+- Create Git repo and folder structure
+- Setup build system with CMake
+- Setup protobuf code generation in CMake
+- Create README with project goals and architecture overview
+
+Deliverable:
+- Compilable empty project with structure
+- CMake configured for protobuf/gRPC generation
+
+--------------------------------------------------
+PHASE 1: Core Domain Model (1-2 weeks)
+--------------------------------------------------
+- Implement:
+  - Order class
+  - Trade class
+  - OrderBook
+  - MatchingEngine (single-threaded first)
+  - ExecutionReport
+- Implement price-time priority matching
+- Add support for:
+  - Limit orders
+  - Market orders
+  - Cancel order
+
+- Apply patterns:
+  - Builder Pattern for EngineConfig / ServiceConfig
+  - Factory Pattern for matching strategies or repository creation
+
+Deliverable:
+- Fully working single-threaded matching engine
+- Unit tests for matching logic
+- Initial EngineConfigBuilder implemented
+
+--------------------------------------------------
+PHASE 2: Backend Architecture & DIP (1-2 weeks)
+--------------------------------------------------
+- Introduce layered architecture:
+  - RPC/API layer
+  - Service layer (OrderService)
+  - Repository interfaces
+  - Domain layer
+  - Infrastructure layer
+
+- Create interfaces:
+  - IOrderRepository
+  - ITradeRepository
+  - IEventPublisher (optional)
+  - IClock (optional for testability)
+
+- Implement:
+  - InMemoryOrderRepository
+  - InMemoryTradeRepository
+
+- Refactor MatchingEngine and services to depend on interfaces only
+
+Deliverable:
+- Clean architecture with dependency inversion
+- System works end-to-end in memory
+- Clear separation between transport models and domain models
+
+--------------------------------------------------
+PHASE 3: Protocol Buffers + RPC Layer (1-2 weeks)
+--------------------------------------------------
+- Define protobuf schemas for:
+  - SubmitOrderRequest
+  - SubmitOrderResponse
+  - CancelOrderRequest
+  - CancelOrderResponse
+  - TradeMessage
+  - OrderBookSnapshot
+  - MetricsResponse
+
+- Add gRPC service definitions such as:
+  - SubmitOrder
+  - CancelOrder
+  - GetOrderBook
+  - GetTrades
+  - GetMetrics
+
+- Generate C++ code from .proto files
+- Implement gRPC server
+- Map protobuf transport messages to internal domain objects
+- Keep matching engine decoupled from protobuf-generated classes
+
+Deliverable:
+- Working gRPC interface using protobuf
+- Strong service contract for backend communication
+
+Note:
+- Optional REST endpoints can still be added later for easy curl/Postman testing
+- gRPC + protobuf is the required communication layer
+
+--------------------------------------------------
+PHASE 4: Concurrency (2 weeks)
+--------------------------------------------------
+- Implement thread-safe queue
+- Create producer-consumer pipeline:
+  - RPC/API threads push orders into inbound queue
+  - Matching worker thread(s) consume orders
+  - Execution events queued for persistence and metrics
+
+- Add:
+  - ThreadPool
+  - Worker threads
+  - Synchronization primitives (mutex, condition_variable, atomics)
+
+- Ensure thread safety in:
+  - order submission path
+  - order book access
+  - metrics aggregation
+
+Deliverable:
+- Concurrent system processing multiple orders safely
+- Concurrency tests validating correctness under parallel submission
+
+--------------------------------------------------
+PHASE 5: Persistence (1 week)
+--------------------------------------------------
+- Implement SQLite repositories:
+  - SqliteOrderRepository
+  - SqliteTradeRepository
+
+- Keep interfaces unchanged (DIP preserved)
+
+- Add basic schema:
+  - orders table
+  - trades table
+  - optional executions/events table
+
+Deliverable:
+- System persists data to database
+- Same services work with either in-memory or SQLite repositories
+
+--------------------------------------------------
+PHASE 6: Order Generator / Load Simulator (3-5 days)
+--------------------------------------------------
+- Build OrderGenerator / LoadSimulator component
+- Generate randomized buy and sell orders
+- Support configurable:
+  - symbols
+  - price ranges
+  - quantity ranges
+  - order rate
+  - thread count
+  - match probability
+
+- Allow simulator to drive the system through:
+  - gRPC client calls
+  - or direct service-layer submission for lower-level tests
+
+Deliverable:
+- Reusable simulation tool for integration tests and performance tests
+
+--------------------------------------------------
+PHASE 7: Performance & Benchmarking (1-2 weeks)
+--------------------------------------------------
+- Build benchmarking scenarios using OrderGenerator
+- Measure:
+  - average latency
+  - p95 latency
+  - p99 latency
+  - throughput (orders/sec)
+  - queue depth
+  - processing delay
+
+- Compare:
+  - single-thread vs multi-thread
+  - in-memory vs SQLite
+  - direct service calls vs gRPC overhead
+
+- Optimize:
+  - reduce lock contention
+  - improve queue design
+  - minimize allocations
+  - reduce serialization overhead where possible
+
+Deliverable:
+- Benchmark results
+- Documented performance findings and optimizations
+
+--------------------------------------------------
+PHASE 8: Testing (ongoing, finalize 1 week)
+--------------------------------------------------
+- Unit tests:
+  - Matching logic
+  - Order lifecycle
+  - Builder and factory behavior
+  - protobuf/domain mapping
+
+- Integration tests:
+  - gRPC server + services + repositories
+  - persistence + matching flow
+
+- Concurrency tests:
+  - parallel submission
+  - queue correctness
+  - no corruption of final state
+
+- Simulation tests:
+  - randomized order streams
+  - correctness invariants after batches
+
+Deliverable:
+- Strong automated test coverage using GoogleTest
+
+--------------------------------------------------
+PHASE 9: Production Polish (1 week)
+--------------------------------------------------
+- Add structured logging
+- Add configuration file support
+- Dockerize application
+- Add health and readiness endpoints if desired
+- Improve README:
+  - architecture diagram
+  - design patterns explanation
+  - protobuf/gRPC explanation
+  - concurrency model
+  - benchmark results
+  - how to run locally
+
+Deliverable:
+- Production-style project ready for interviews and GitHub showcase
+
+--------------------------------------------------
+FINAL DELIVERABLE
+--------------------------------------------------
+- Fully working concurrent backend trading system in C++
+- Clean architecture using SOLID principles
+- Builder Pattern used realistically through EngineConfigBuilder
+- Factory Pattern used for matching strategy or repository creation
+- gRPC + Protocol Buffers used for service messaging
+- Includes concurrency and performance benchmarking
+- Includes simulation/load generation
+- Documented and ready for GitHub showcase
+
+--------------------------------------------------
+OPTIONAL STRETCH GOALS
+--------------------------------------------------
+- Add REST facade alongside gRPC
+- Add PostgreSQL repository implementation
+- Add streaming market data or execution feed
+- Partition matching engine by symbol
+- Use lock-free queues
+- Add OpenTelemetry metrics/tracing
+- Add Redis cache/event stream
+- Add replayable event log
