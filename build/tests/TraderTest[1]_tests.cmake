@@ -1,0 +1,1 @@
+set(  TraderTest_TESTS)

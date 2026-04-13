@@ -1,0 +1,570 @@
+Start testing: Apr 12 19:43 CDT
+----------------------------------------------------------
+1/21 Testing: OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly
+1/21 Test: OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly
+[       OK ] OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" end time: Apr 12 19:43 CDT
+"OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/21 Testing: OrderTest.ValidMarketOrderInitializesWithoutPrice
+2/21 Test: OrderTest.ValidMarketOrderInitializesWithoutPrice
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ValidMarketOrderInitializesWithoutPrice" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.ValidMarketOrderInitializesWithoutPrice" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.ValidMarketOrderInitializesWithoutPrice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.ValidMarketOrderInitializesWithoutPrice
+[       OK ] OrderTest.ValidMarketOrderInitializesWithoutPrice (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.ValidMarketOrderInitializesWithoutPrice" end time: Apr 12 19:43 CDT
+"OrderTest.ValidMarketOrderInitializesWithoutPrice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/21 Testing: OrderTest.ConstructorRejectsNegativeSequenceNumber
+3/21 Test: OrderTest.ConstructorRejectsNegativeSequenceNumber
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsNegativeSequenceNumber" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.ConstructorRejectsNegativeSequenceNumber" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.ConstructorRejectsNegativeSequenceNumber
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.ConstructorRejectsNegativeSequenceNumber
+[       OK ] OrderTest.ConstructorRejectsNegativeSequenceNumber (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.ConstructorRejectsNegativeSequenceNumber" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsNegativeSequenceNumber" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/21 Testing: OrderTest.ConstructorRejectsNonPositiveOrderId
+4/21 Test: OrderTest.ConstructorRejectsNonPositiveOrderId
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsNonPositiveOrderId" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.ConstructorRejectsNonPositiveOrderId" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.ConstructorRejectsNonPositiveOrderId
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.ConstructorRejectsNonPositiveOrderId
+[       OK ] OrderTest.ConstructorRejectsNonPositiveOrderId (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.ConstructorRejectsNonPositiveOrderId" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsNonPositiveOrderId" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/21 Testing: OrderTest.ConstructorRejectsEmptySymbol
+5/21 Test: OrderTest.ConstructorRejectsEmptySymbol
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsEmptySymbol" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.ConstructorRejectsEmptySymbol" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.ConstructorRejectsEmptySymbol
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.ConstructorRejectsEmptySymbol
+[       OK ] OrderTest.ConstructorRejectsEmptySymbol (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.ConstructorRejectsEmptySymbol" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsEmptySymbol" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/21 Testing: OrderTest.ConstructorRejectsNonPositiveQuantity
+6/21 Test: OrderTest.ConstructorRejectsNonPositiveQuantity
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsNonPositiveQuantity" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.ConstructorRejectsNonPositiveQuantity" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.ConstructorRejectsNonPositiveQuantity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.ConstructorRejectsNonPositiveQuantity
+[       OK ] OrderTest.ConstructorRejectsNonPositiveQuantity (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.ConstructorRejectsNonPositiveQuantity" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsNonPositiveQuantity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/21 Testing: OrderTest.ConstructorRejectsLimitOrderWithoutPrice
+7/21 Test: OrderTest.ConstructorRejectsLimitOrderWithoutPrice
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsLimitOrderWithoutPrice" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.ConstructorRejectsLimitOrderWithoutPrice" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.ConstructorRejectsLimitOrderWithoutPrice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.ConstructorRejectsLimitOrderWithoutPrice
+[       OK ] OrderTest.ConstructorRejectsLimitOrderWithoutPrice (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.ConstructorRejectsLimitOrderWithoutPrice" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsLimitOrderWithoutPrice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/21 Testing: OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice
+8/21 Test: OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice
+[       OK ] OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/21 Testing: OrderTest.ConstructorRejectsMarketOrderWithPrice
+9/21 Test: OrderTest.ConstructorRejectsMarketOrderWithPrice
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsMarketOrderWithPrice" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.ConstructorRejectsMarketOrderWithPrice" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.ConstructorRejectsMarketOrderWithPrice
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.ConstructorRejectsMarketOrderWithPrice
+[       OK ] OrderTest.ConstructorRejectsMarketOrderWithPrice (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.ConstructorRejectsMarketOrderWithPrice" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsMarketOrderWithPrice" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/21 Testing: OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus
+10/21 Test: OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus
+[       OK ] OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" end time: Apr 12 19:43 CDT
+"OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/21 Testing: OrderTest.FillCompletelySetsFilledStatus
+11/21 Test: OrderTest.FillCompletelySetsFilledStatus
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillCompletelySetsFilledStatus" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.FillCompletelySetsFilledStatus" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.FillCompletelySetsFilledStatus
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.FillCompletelySetsFilledStatus
+[       OK ] OrderTest.FillCompletelySetsFilledStatus (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.FillCompletelySetsFilledStatus" end time: Apr 12 19:43 CDT
+"OrderTest.FillCompletelySetsFilledStatus" time elapsed: 00:00:00
+----------------------------------------------------------
+
+12/21 Testing: OrderTest.MultipleFillsAccumulateCorrectly
+12/21 Test: OrderTest.MultipleFillsAccumulateCorrectly
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.MultipleFillsAccumulateCorrectly" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.MultipleFillsAccumulateCorrectly" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.MultipleFillsAccumulateCorrectly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.MultipleFillsAccumulateCorrectly
+[       OK ] OrderTest.MultipleFillsAccumulateCorrectly (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.MultipleFillsAccumulateCorrectly" end time: Apr 12 19:43 CDT
+"OrderTest.MultipleFillsAccumulateCorrectly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+13/21 Testing: OrderTest.FillRejectsZeroExecutedQuantity
+13/21 Test: OrderTest.FillRejectsZeroExecutedQuantity
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsZeroExecutedQuantity" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.FillRejectsZeroExecutedQuantity" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.FillRejectsZeroExecutedQuantity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.FillRejectsZeroExecutedQuantity
+[       OK ] OrderTest.FillRejectsZeroExecutedQuantity (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.FillRejectsZeroExecutedQuantity" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsZeroExecutedQuantity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+14/21 Testing: OrderTest.FillRejectsNegativeExecutedQuantity
+14/21 Test: OrderTest.FillRejectsNegativeExecutedQuantity
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsNegativeExecutedQuantity" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.FillRejectsNegativeExecutedQuantity" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.FillRejectsNegativeExecutedQuantity
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.FillRejectsNegativeExecutedQuantity
+[       OK ] OrderTest.FillRejectsNegativeExecutedQuantity (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.FillRejectsNegativeExecutedQuantity" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsNegativeExecutedQuantity" time elapsed: 00:00:00
+----------------------------------------------------------
+
+15/21 Testing: OrderTest.FillRejectsQuantityGreaterThanRemaining
+15/21 Test: OrderTest.FillRejectsQuantityGreaterThanRemaining
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsQuantityGreaterThanRemaining" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.FillRejectsQuantityGreaterThanRemaining" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.FillRejectsQuantityGreaterThanRemaining
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.FillRejectsQuantityGreaterThanRemaining
+[       OK ] OrderTest.FillRejectsQuantityGreaterThanRemaining (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.FillRejectsQuantityGreaterThanRemaining" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsQuantityGreaterThanRemaining" time elapsed: 00:00:00
+----------------------------------------------------------
+
+16/21 Testing: OrderTest.FillRejectsWhenOrderAlreadyFilled
+16/21 Test: OrderTest.FillRejectsWhenOrderAlreadyFilled
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsWhenOrderAlreadyFilled" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.FillRejectsWhenOrderAlreadyFilled" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.FillRejectsWhenOrderAlreadyFilled
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.FillRejectsWhenOrderAlreadyFilled
+[       OK ] OrderTest.FillRejectsWhenOrderAlreadyFilled (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.FillRejectsWhenOrderAlreadyFilled" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsWhenOrderAlreadyFilled" time elapsed: 00:00:00
+----------------------------------------------------------
+
+17/21 Testing: OrderTest.FillRejectsWhenOrderCanceled
+17/21 Test: OrderTest.FillRejectsWhenOrderCanceled
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsWhenOrderCanceled" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.FillRejectsWhenOrderCanceled" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.FillRejectsWhenOrderCanceled
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.FillRejectsWhenOrderCanceled
+[       OK ] OrderTest.FillRejectsWhenOrderCanceled (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.FillRejectsWhenOrderCanceled" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsWhenOrderCanceled" time elapsed: 00:00:00
+----------------------------------------------------------
+
+18/21 Testing: OrderTest.CancelChangesStatusToCanceled
+18/21 Test: OrderTest.CancelChangesStatusToCanceled
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.CancelChangesStatusToCanceled" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.CancelChangesStatusToCanceled" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.CancelChangesStatusToCanceled
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.CancelChangesStatusToCanceled
+[       OK ] OrderTest.CancelChangesStatusToCanceled (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.CancelChangesStatusToCanceled" end time: Apr 12 19:43 CDT
+"OrderTest.CancelChangesStatusToCanceled" time elapsed: 00:00:00
+----------------------------------------------------------
+
+19/21 Testing: OrderTest.CancelAfterPartialFillIsAllowed
+19/21 Test: OrderTest.CancelAfterPartialFillIsAllowed
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.CancelAfterPartialFillIsAllowed" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.CancelAfterPartialFillIsAllowed" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.CancelAfterPartialFillIsAllowed
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.CancelAfterPartialFillIsAllowed
+[       OK ] OrderTest.CancelAfterPartialFillIsAllowed (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.CancelAfterPartialFillIsAllowed" end time: Apr 12 19:43 CDT
+"OrderTest.CancelAfterPartialFillIsAllowed" time elapsed: 00:00:00
+----------------------------------------------------------
+
+20/21 Testing: OrderTest.CancelRejectsAlreadyCanceledOrder
+20/21 Test: OrderTest.CancelRejectsAlreadyCanceledOrder
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.CancelRejectsAlreadyCanceledOrder" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.CancelRejectsAlreadyCanceledOrder" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.CancelRejectsAlreadyCanceledOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.CancelRejectsAlreadyCanceledOrder
+[       OK ] OrderTest.CancelRejectsAlreadyCanceledOrder (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.CancelRejectsAlreadyCanceledOrder" end time: Apr 12 19:43 CDT
+"OrderTest.CancelRejectsAlreadyCanceledOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+21/21 Testing: OrderTest.CancelRejectsFilledOrder
+21/21 Test: OrderTest.CancelRejectsFilledOrder
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.CancelRejectsFilledOrder" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderTest.CancelRejectsFilledOrder" start time: Apr 12 19:43 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderTest.CancelRejectsFilledOrder
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderTest
+[ RUN      ] OrderTest.CancelRejectsFilledOrder
+[       OK ] OrderTest.CancelRejectsFilledOrder (0 ms)
+[----------] 1 test from OrderTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderTest.CancelRejectsFilledOrder" end time: Apr 12 19:43 CDT
+"OrderTest.CancelRejectsFilledOrder" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 12 19:43 CDT

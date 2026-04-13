@@ -8,39 +8,44 @@
 namespace trading::domain {
 
 class Order {
- private:
-  SequenceNumber sequenceNumber;
-  OrderId orderId;
-
-  Quantity originalQuantity;
-  Quantity remainingQuantity;
-
-  std::optional<Price> price;
-
-  Side side;
-  Type type;
-  Status status;
-
-  Symbol symbol;
-
  public:
-  Order(SequenceNumber seqNum,
-        OrderId ordId,
-        const Symbol& sym,
-        Side s,
-        Type t,
-        Quantity quantity,
-        std::optional<Price> p);
+  Order(SequenceNumber sequenceNumber, OrderId orderId, const Symbol& symbol,
+        Side side, Type type, Quantity quantity,
+        std::optional<Price> price = std::nullopt);
 
-  SequenceNumber getSequenceNumber() const;
-  OrderId getOrderId() const;
-  const Symbol& getSymbol() const;
-  Side getSide() const;
-  Type getType() const;
-  Status getStatus() const;
-  Quantity getOriginalQuantity() const;
-  Quantity getRemainingQuantity() const;
-  std::optional<Price> getPrice() const;
+  SequenceNumber getSequenceNumber() const noexcept;
+  OrderId getOrderId() const noexcept;
+  const Symbol& getSymbol() const noexcept;
+  Side getSide() const noexcept;
+  Type getType() const noexcept;
+  Status getStatus() const noexcept;
+  Quantity getOriginalQuantity() const noexcept;
+  Quantity getRemainingQuantity() const noexcept;
+  Quantity getFilledQuantity() const noexcept;
+  std::optional<Price> getPrice() const noexcept;
+
+  bool hasPrice() const noexcept;
+  bool isActive() const noexcept;
+  bool isFilled() const noexcept;
+  bool isCanceled() const noexcept;
+
+  void fill(Quantity executedQuantity);
+  void cancel();
+
+ private:
+  static void validate(SequenceNumber sequenceNumber, OrderId orderId,
+                       const Symbol& symbol, Type type, Quantity quantity,
+                       std::optional<Price> price);
+
+  SequenceNumber sequenceNumber_;
+  OrderId orderId_;
+  Symbol symbol_;
+  Side side_;
+  Type type_;
+  Status status_;
+  Quantity originalQuantity_;
+  Quantity remainingQuantity_;
+  std::optional<Price> price_;
 };
 
 }  // namespace trading::domain

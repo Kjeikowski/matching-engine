@@ -65,6 +65,16 @@ CMAKE_BINARY_DIR = /home/kurt/Documents/Developement/market-backend-system/build
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+.PHONY : test/fast
+
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "No interactive CMake dialog available..."
@@ -84,6 +94,51 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"gmock\" \"gtest\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,65 +172,108 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named matching_engine_server
+# Target rules for targets named run_tests
 
 # Build rule for target.
-matching_engine_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matching_engine_server
-.PHONY : matching_engine_server
+run_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 run_tests
+.PHONY : run_tests
 
 # fast build rule for target.
-matching_engine_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching_engine_server.dir/build.make CMakeFiles/matching_engine_server.dir/build
-.PHONY : matching_engine_server/fast
+run_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/run_tests.dir/build.make CMakeFiles/run_tests.dir/build
+.PHONY : run_tests/fast
 
-apps/matching_engine_server/main.o: apps/matching_engine_server/main.cpp.o
-.PHONY : apps/matching_engine_server/main.o
+#=============================================================================
+# Target rules for targets named gmock
 
-# target to build an object file
-apps/matching_engine_server/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching_engine_server.dir/build.make CMakeFiles/matching_engine_server.dir/apps/matching_engine_server/main.cpp.o
-.PHONY : apps/matching_engine_server/main.cpp.o
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
 
-apps/matching_engine_server/main.i: apps/matching_engine_server/main.cpp.i
-.PHONY : apps/matching_engine_server/main.i
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
 
-# target to preprocess a source file
-apps/matching_engine_server/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching_engine_server.dir/build.make CMakeFiles/matching_engine_server.dir/apps/matching_engine_server/main.cpp.i
-.PHONY : apps/matching_engine_server/main.cpp.i
+#=============================================================================
+# Target rules for targets named gmock_main
 
-apps/matching_engine_server/main.s: apps/matching_engine_server/main.cpp.s
-.PHONY : apps/matching_engine_server/main.s
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
 
-# target to generate assembly for a file
-apps/matching_engine_server/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching_engine_server.dir/build.make CMakeFiles/matching_engine_server.dir/apps/matching_engine_server/main.cpp.s
-.PHONY : apps/matching_engine_server/main.cpp.s
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
 
-src/domain/Order.o: src/domain/Order.cpp.o
-.PHONY : src/domain/Order.o
+#=============================================================================
+# Target rules for targets named gtest
 
-# target to build an object file
-src/domain/Order.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching_engine_server.dir/build.make CMakeFiles/matching_engine_server.dir/src/domain/Order.cpp.o
-.PHONY : src/domain/Order.cpp.o
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
 
-src/domain/Order.i: src/domain/Order.cpp.i
-.PHONY : src/domain/Order.i
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
 
-# target to preprocess a source file
-src/domain/Order.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching_engine_server.dir/build.make CMakeFiles/matching_engine_server.dir/src/domain/Order.cpp.i
-.PHONY : src/domain/Order.cpp.i
+#=============================================================================
+# Target rules for targets named gtest_main
 
-src/domain/Order.s: src/domain/Order.cpp.s
-.PHONY : src/domain/Order.s
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
 
-# target to generate assembly for a file
-src/domain/Order.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching_engine_server.dir/build.make CMakeFiles/matching_engine_server.dir/src/domain/Order.cpp.s
-.PHONY : src/domain/Order.cpp.s
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named trading_engine
+
+# Build rule for target.
+trading_engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trading_engine
+.PHONY : trading_engine
+
+# fast build rule for target.
+trading_engine/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/build
+.PHONY : trading_engine/fast
+
+#=============================================================================
+# Target rules for targets named OrderTest
+
+# Build rule for target.
+OrderTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OrderTest
+.PHONY : OrderTest
+
+# fast build rule for target.
+OrderTest/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderTest.dir/build.make tests/CMakeFiles/OrderTest.dir/build
+.PHONY : OrderTest/fast
+
+#=============================================================================
+# Target rules for targets named TraderTest
+
+# Build rule for target.
+TraderTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TraderTest
+.PHONY : TraderTest
+
+# fast build rule for target.
+TraderTest/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TraderTest.dir/build.make tests/CMakeFiles/TraderTest.dir/build
+.PHONY : TraderTest/fast
 
 # Help Target
 help:
@@ -184,14 +282,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... matching_engine_server"
-	@echo "... apps/matching_engine_server/main.o"
-	@echo "... apps/matching_engine_server/main.i"
-	@echo "... apps/matching_engine_server/main.s"
-	@echo "... src/domain/Order.o"
-	@echo "... src/domain/Order.i"
-	@echo "... src/domain/Order.s"
+	@echo "... test"
+	@echo "... run_tests"
+	@echo "... OrderTest"
+	@echo "... TraderTest"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest"
+	@echo "... gtest_main"
+	@echo "... trading_engine"
 .PHONY : help
 
 

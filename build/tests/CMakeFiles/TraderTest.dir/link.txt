@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/TraderTest.dir/unit/TraderTest.cpp.o -o TraderTest  ../src/libtrading_engine.a ../lib/libgtest_main.a ../lib/libgtest.a 

@@ -5,7 +5,10 @@
 
 namespace trading::domain {
 
-using Symbol = std::string;
+struct Symbol {
+  explicit Symbol(std::string v) : value(v) {}
+  std::string value;
+};
 
 struct SequenceNumber {
   explicit SequenceNumber(std::int64_t v) : value(v) {}
@@ -27,21 +30,10 @@ struct Price {
   std::int64_t value;
 };
 
-enum class Side {
-  BUY,
-  SELL
-};
+enum class Side { BUY, SELL };
 
-enum class Type {
-  MARKET,
-  LIMIT
-};
+enum class Type { MARKET, LIMIT };
 
-enum class Status {
-  NEW,
-  PARTIALLY_FILLED,
-  FILLED,
-  CANCELED
-};
+enum class Status { NEW, PARTIALLY_FILLED, FILLED, CANCELED };
 
 }  // namespace trading::domain

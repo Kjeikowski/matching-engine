@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/OrderTest.dir/unit/OrderTest.cpp.o -o OrderTest  ../src/libtrading_engine.a ../lib/libgtest_main.a ../lib/libgtest.a 
