@@ -12,14 +12,26 @@ target_link_libraries(OrderTest
 
 gtest_discover_tests(OrderTest)
 
-add_executable(TraderTest
-    unit/TraderTest.cpp
+add_executable(TradeTest
+    unit/TradeTest.cpp
 )
 
-target_link_libraries(TraderTest
+target_link_libraries(TradeTest
     PRIVATE
     trading_engine
     gtest_main
 )
 
-gtest_discover_tests(TraderTest)
+gtest_discover_tests(TradeTest)
+
+add_executable(OrderBookTest
+    unit/OrderBookTest.cpp
+)
+
+target_link_libraries(OrderBookTest
+    PRIVATE
+    trading_engine
+    gtest_main
+)
+
+gtest_discover_tests(OrderBookTest)

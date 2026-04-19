@@ -40,7 +40,8 @@
 /home/kurt/Documents/Developement/market-backend-system/build/src/CMakeFiles/install/local.dir
 /home/kurt/Documents/Developement/market-backend-system/build/src/CMakeFiles/install/strip.dir
 /home/kurt/Documents/Developement/market-backend-system/build/tests/CMakeFiles/OrderTest.dir
-/home/kurt/Documents/Developement/market-backend-system/build/tests/CMakeFiles/TraderTest.dir
+/home/kurt/Documents/Developement/market-backend-system/build/tests/CMakeFiles/TradeTest.dir
+/home/kurt/Documents/Developement/market-backend-system/build/tests/CMakeFiles/OrderBookTest.dir
 /home/kurt/Documents/Developement/market-backend-system/build/tests/CMakeFiles/test.dir
 /home/kurt/Documents/Developement/market-backend-system/build/tests/CMakeFiles/edit_cache.dir
 /home/kurt/Documents/Developement/market-backend-system/build/tests/CMakeFiles/rebuild_cache.dir

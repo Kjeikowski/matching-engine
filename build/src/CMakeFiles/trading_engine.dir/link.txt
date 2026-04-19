@@ -1,2 +1,2 @@
-/usr/bin/ar qc libtrading_engine.a CMakeFiles/trading_engine.dir/domain/Order.cpp.o CMakeFiles/trading_engine.dir/domain/Trader.cpp.o
+/usr/bin/ar qc libtrading_engine.a CMakeFiles/trading_engine.dir/domain/Order.cpp.o CMakeFiles/trading_engine.dir/domain/Trade.cpp.o CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.o
 /usr/bin/ranlib libtrading_engine.a

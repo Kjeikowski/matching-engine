@@ -1,10 +1,10 @@
-Start testing: Apr 12 19:43 CDT
+Start testing: Apr 19 17:04 CDT
 ----------------------------------------------------------
-1/21 Testing: OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly
-1/21 Test: OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly
+1/44 Testing: OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly
+1/44 Test: OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" start time: Apr 12 19:43 CDT
+"OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -23,15 +23,15 @@ Note: Google Test filter = OrderTest.ValidLimitOrderInitializesAllFieldsCorrectl
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" end time: Apr 12 19:43 CDT
+"OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" end time: Apr 19 17:04 CDT
 "OrderTest.ValidLimitOrderInitializesAllFieldsCorrectly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/21 Testing: OrderTest.ValidMarketOrderInitializesWithoutPrice
-2/21 Test: OrderTest.ValidMarketOrderInitializesWithoutPrice
+2/44 Testing: OrderTest.ValidMarketOrderInitializesWithoutPrice
+2/44 Test: OrderTest.ValidMarketOrderInitializesWithoutPrice
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ValidMarketOrderInitializesWithoutPrice" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.ValidMarketOrderInitializesWithoutPrice" start time: Apr 12 19:43 CDT
+"OrderTest.ValidMarketOrderInitializesWithoutPrice" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -50,15 +50,15 @@ Note: Google Test filter = OrderTest.ValidMarketOrderInitializesWithoutPrice
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.ValidMarketOrderInitializesWithoutPrice" end time: Apr 12 19:43 CDT
+"OrderTest.ValidMarketOrderInitializesWithoutPrice" end time: Apr 19 17:04 CDT
 "OrderTest.ValidMarketOrderInitializesWithoutPrice" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/21 Testing: OrderTest.ConstructorRejectsNegativeSequenceNumber
-3/21 Test: OrderTest.ConstructorRejectsNegativeSequenceNumber
+3/44 Testing: OrderTest.ConstructorRejectsNegativeSequenceNumber
+3/44 Test: OrderTest.ConstructorRejectsNegativeSequenceNumber
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsNegativeSequenceNumber" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.ConstructorRejectsNegativeSequenceNumber" start time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsNegativeSequenceNumber" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -77,15 +77,15 @@ Note: Google Test filter = OrderTest.ConstructorRejectsNegativeSequenceNumber
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.ConstructorRejectsNegativeSequenceNumber" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsNegativeSequenceNumber" end time: Apr 19 17:04 CDT
 "OrderTest.ConstructorRejectsNegativeSequenceNumber" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/21 Testing: OrderTest.ConstructorRejectsNonPositiveOrderId
-4/21 Test: OrderTest.ConstructorRejectsNonPositiveOrderId
+4/44 Testing: OrderTest.ConstructorRejectsNonPositiveOrderId
+4/44 Test: OrderTest.ConstructorRejectsNonPositiveOrderId
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsNonPositiveOrderId" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.ConstructorRejectsNonPositiveOrderId" start time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsNonPositiveOrderId" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -104,15 +104,15 @@ Note: Google Test filter = OrderTest.ConstructorRejectsNonPositiveOrderId
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.ConstructorRejectsNonPositiveOrderId" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsNonPositiveOrderId" end time: Apr 19 17:04 CDT
 "OrderTest.ConstructorRejectsNonPositiveOrderId" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/21 Testing: OrderTest.ConstructorRejectsEmptySymbol
-5/21 Test: OrderTest.ConstructorRejectsEmptySymbol
+5/44 Testing: OrderTest.ConstructorRejectsEmptySymbol
+5/44 Test: OrderTest.ConstructorRejectsEmptySymbol
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsEmptySymbol" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.ConstructorRejectsEmptySymbol" start time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsEmptySymbol" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -131,15 +131,15 @@ Note: Google Test filter = OrderTest.ConstructorRejectsEmptySymbol
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.ConstructorRejectsEmptySymbol" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsEmptySymbol" end time: Apr 19 17:04 CDT
 "OrderTest.ConstructorRejectsEmptySymbol" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/21 Testing: OrderTest.ConstructorRejectsNonPositiveQuantity
-6/21 Test: OrderTest.ConstructorRejectsNonPositiveQuantity
+6/44 Testing: OrderTest.ConstructorRejectsNonPositiveQuantity
+6/44 Test: OrderTest.ConstructorRejectsNonPositiveQuantity
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsNonPositiveQuantity" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.ConstructorRejectsNonPositiveQuantity" start time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsNonPositiveQuantity" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -158,15 +158,15 @@ Note: Google Test filter = OrderTest.ConstructorRejectsNonPositiveQuantity
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.ConstructorRejectsNonPositiveQuantity" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsNonPositiveQuantity" end time: Apr 19 17:04 CDT
 "OrderTest.ConstructorRejectsNonPositiveQuantity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-7/21 Testing: OrderTest.ConstructorRejectsLimitOrderWithoutPrice
-7/21 Test: OrderTest.ConstructorRejectsLimitOrderWithoutPrice
+7/44 Testing: OrderTest.ConstructorRejectsLimitOrderWithoutPrice
+7/44 Test: OrderTest.ConstructorRejectsLimitOrderWithoutPrice
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsLimitOrderWithoutPrice" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.ConstructorRejectsLimitOrderWithoutPrice" start time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsLimitOrderWithoutPrice" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -185,15 +185,15 @@ Note: Google Test filter = OrderTest.ConstructorRejectsLimitOrderWithoutPrice
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.ConstructorRejectsLimitOrderWithoutPrice" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsLimitOrderWithoutPrice" end time: Apr 19 17:04 CDT
 "OrderTest.ConstructorRejectsLimitOrderWithoutPrice" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-8/21 Testing: OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice
-8/21 Test: OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice
+8/44 Testing: OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice
+8/44 Test: OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" start time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -212,15 +212,15 @@ Note: Google Test filter = OrderTest.ConstructorRejectsLimitOrderWithNonPositive
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" end time: Apr 19 17:04 CDT
 "OrderTest.ConstructorRejectsLimitOrderWithNonPositivePrice" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-9/21 Testing: OrderTest.ConstructorRejectsMarketOrderWithPrice
-9/21 Test: OrderTest.ConstructorRejectsMarketOrderWithPrice
+9/44 Testing: OrderTest.ConstructorRejectsMarketOrderWithPrice
+9/44 Test: OrderTest.ConstructorRejectsMarketOrderWithPrice
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.ConstructorRejectsMarketOrderWithPrice" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.ConstructorRejectsMarketOrderWithPrice" start time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsMarketOrderWithPrice" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -239,15 +239,15 @@ Note: Google Test filter = OrderTest.ConstructorRejectsMarketOrderWithPrice
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.ConstructorRejectsMarketOrderWithPrice" end time: Apr 12 19:43 CDT
+"OrderTest.ConstructorRejectsMarketOrderWithPrice" end time: Apr 19 17:04 CDT
 "OrderTest.ConstructorRejectsMarketOrderWithPrice" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-10/21 Testing: OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus
-10/21 Test: OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus
+10/44 Testing: OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus
+10/44 Test: OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" start time: Apr 12 19:43 CDT
+"OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -266,15 +266,15 @@ Note: Google Test filter = OrderTest.FillPartiallyReducesRemainingQuantityAndUpd
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" end time: Apr 12 19:43 CDT
+"OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" end time: Apr 19 17:04 CDT
 "OrderTest.FillPartiallyReducesRemainingQuantityAndUpdatesStatus" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-11/21 Testing: OrderTest.FillCompletelySetsFilledStatus
-11/21 Test: OrderTest.FillCompletelySetsFilledStatus
+11/44 Testing: OrderTest.FillCompletelySetsFilledStatus
+11/44 Test: OrderTest.FillCompletelySetsFilledStatus
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillCompletelySetsFilledStatus" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.FillCompletelySetsFilledStatus" start time: Apr 12 19:43 CDT
+"OrderTest.FillCompletelySetsFilledStatus" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -293,15 +293,15 @@ Note: Google Test filter = OrderTest.FillCompletelySetsFilledStatus
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.FillCompletelySetsFilledStatus" end time: Apr 12 19:43 CDT
+"OrderTest.FillCompletelySetsFilledStatus" end time: Apr 19 17:04 CDT
 "OrderTest.FillCompletelySetsFilledStatus" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-12/21 Testing: OrderTest.MultipleFillsAccumulateCorrectly
-12/21 Test: OrderTest.MultipleFillsAccumulateCorrectly
+12/44 Testing: OrderTest.MultipleFillsAccumulateCorrectly
+12/44 Test: OrderTest.MultipleFillsAccumulateCorrectly
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.MultipleFillsAccumulateCorrectly" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.MultipleFillsAccumulateCorrectly" start time: Apr 12 19:43 CDT
+"OrderTest.MultipleFillsAccumulateCorrectly" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -320,15 +320,15 @@ Note: Google Test filter = OrderTest.MultipleFillsAccumulateCorrectly
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.MultipleFillsAccumulateCorrectly" end time: Apr 12 19:43 CDT
+"OrderTest.MultipleFillsAccumulateCorrectly" end time: Apr 19 17:04 CDT
 "OrderTest.MultipleFillsAccumulateCorrectly" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-13/21 Testing: OrderTest.FillRejectsZeroExecutedQuantity
-13/21 Test: OrderTest.FillRejectsZeroExecutedQuantity
+13/44 Testing: OrderTest.FillRejectsZeroExecutedQuantity
+13/44 Test: OrderTest.FillRejectsZeroExecutedQuantity
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsZeroExecutedQuantity" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.FillRejectsZeroExecutedQuantity" start time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsZeroExecutedQuantity" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -347,15 +347,15 @@ Note: Google Test filter = OrderTest.FillRejectsZeroExecutedQuantity
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.FillRejectsZeroExecutedQuantity" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsZeroExecutedQuantity" end time: Apr 19 17:04 CDT
 "OrderTest.FillRejectsZeroExecutedQuantity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-14/21 Testing: OrderTest.FillRejectsNegativeExecutedQuantity
-14/21 Test: OrderTest.FillRejectsNegativeExecutedQuantity
+14/44 Testing: OrderTest.FillRejectsNegativeExecutedQuantity
+14/44 Test: OrderTest.FillRejectsNegativeExecutedQuantity
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsNegativeExecutedQuantity" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.FillRejectsNegativeExecutedQuantity" start time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsNegativeExecutedQuantity" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -374,15 +374,15 @@ Note: Google Test filter = OrderTest.FillRejectsNegativeExecutedQuantity
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.FillRejectsNegativeExecutedQuantity" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsNegativeExecutedQuantity" end time: Apr 19 17:04 CDT
 "OrderTest.FillRejectsNegativeExecutedQuantity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-15/21 Testing: OrderTest.FillRejectsQuantityGreaterThanRemaining
-15/21 Test: OrderTest.FillRejectsQuantityGreaterThanRemaining
+15/44 Testing: OrderTest.FillRejectsQuantityGreaterThanRemaining
+15/44 Test: OrderTest.FillRejectsQuantityGreaterThanRemaining
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsQuantityGreaterThanRemaining" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.FillRejectsQuantityGreaterThanRemaining" start time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsQuantityGreaterThanRemaining" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -401,15 +401,15 @@ Note: Google Test filter = OrderTest.FillRejectsQuantityGreaterThanRemaining
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.FillRejectsQuantityGreaterThanRemaining" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsQuantityGreaterThanRemaining" end time: Apr 19 17:04 CDT
 "OrderTest.FillRejectsQuantityGreaterThanRemaining" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-16/21 Testing: OrderTest.FillRejectsWhenOrderAlreadyFilled
-16/21 Test: OrderTest.FillRejectsWhenOrderAlreadyFilled
+16/44 Testing: OrderTest.FillRejectsWhenOrderAlreadyFilled
+16/44 Test: OrderTest.FillRejectsWhenOrderAlreadyFilled
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsWhenOrderAlreadyFilled" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.FillRejectsWhenOrderAlreadyFilled" start time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsWhenOrderAlreadyFilled" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -428,15 +428,15 @@ Note: Google Test filter = OrderTest.FillRejectsWhenOrderAlreadyFilled
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.FillRejectsWhenOrderAlreadyFilled" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsWhenOrderAlreadyFilled" end time: Apr 19 17:04 CDT
 "OrderTest.FillRejectsWhenOrderAlreadyFilled" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-17/21 Testing: OrderTest.FillRejectsWhenOrderCanceled
-17/21 Test: OrderTest.FillRejectsWhenOrderCanceled
+17/44 Testing: OrderTest.FillRejectsWhenOrderCanceled
+17/44 Test: OrderTest.FillRejectsWhenOrderCanceled
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.FillRejectsWhenOrderCanceled" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.FillRejectsWhenOrderCanceled" start time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsWhenOrderCanceled" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -455,15 +455,15 @@ Note: Google Test filter = OrderTest.FillRejectsWhenOrderCanceled
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.FillRejectsWhenOrderCanceled" end time: Apr 12 19:43 CDT
+"OrderTest.FillRejectsWhenOrderCanceled" end time: Apr 19 17:04 CDT
 "OrderTest.FillRejectsWhenOrderCanceled" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-18/21 Testing: OrderTest.CancelChangesStatusToCanceled
-18/21 Test: OrderTest.CancelChangesStatusToCanceled
+18/44 Testing: OrderTest.CancelChangesStatusToCanceled
+18/44 Test: OrderTest.CancelChangesStatusToCanceled
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.CancelChangesStatusToCanceled" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.CancelChangesStatusToCanceled" start time: Apr 12 19:43 CDT
+"OrderTest.CancelChangesStatusToCanceled" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -482,15 +482,15 @@ Note: Google Test filter = OrderTest.CancelChangesStatusToCanceled
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.CancelChangesStatusToCanceled" end time: Apr 12 19:43 CDT
+"OrderTest.CancelChangesStatusToCanceled" end time: Apr 19 17:04 CDT
 "OrderTest.CancelChangesStatusToCanceled" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-19/21 Testing: OrderTest.CancelAfterPartialFillIsAllowed
-19/21 Test: OrderTest.CancelAfterPartialFillIsAllowed
+19/44 Testing: OrderTest.CancelAfterPartialFillIsAllowed
+19/44 Test: OrderTest.CancelAfterPartialFillIsAllowed
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.CancelAfterPartialFillIsAllowed" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.CancelAfterPartialFillIsAllowed" start time: Apr 12 19:43 CDT
+"OrderTest.CancelAfterPartialFillIsAllowed" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -509,15 +509,15 @@ Note: Google Test filter = OrderTest.CancelAfterPartialFillIsAllowed
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.CancelAfterPartialFillIsAllowed" end time: Apr 12 19:43 CDT
+"OrderTest.CancelAfterPartialFillIsAllowed" end time: Apr 19 17:04 CDT
 "OrderTest.CancelAfterPartialFillIsAllowed" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-20/21 Testing: OrderTest.CancelRejectsAlreadyCanceledOrder
-20/21 Test: OrderTest.CancelRejectsAlreadyCanceledOrder
+20/44 Testing: OrderTest.CancelRejectsAlreadyCanceledOrder
+20/44 Test: OrderTest.CancelRejectsAlreadyCanceledOrder
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.CancelRejectsAlreadyCanceledOrder" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.CancelRejectsAlreadyCanceledOrder" start time: Apr 12 19:43 CDT
+"OrderTest.CancelRejectsAlreadyCanceledOrder" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -536,15 +536,15 @@ Note: Google Test filter = OrderTest.CancelRejectsAlreadyCanceledOrder
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.CancelRejectsAlreadyCanceledOrder" end time: Apr 12 19:43 CDT
+"OrderTest.CancelRejectsAlreadyCanceledOrder" end time: Apr 19 17:04 CDT
 "OrderTest.CancelRejectsAlreadyCanceledOrder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-21/21 Testing: OrderTest.CancelRejectsFilledOrder
-21/21 Test: OrderTest.CancelRejectsFilledOrder
+21/44 Testing: OrderTest.CancelRejectsFilledOrder
+21/44 Test: OrderTest.CancelRejectsFilledOrder
 Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest" "--gtest_filter=OrderTest.CancelRejectsFilledOrder" "--gtest_also_run_disabled_tests"
 Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
-"OrderTest.CancelRejectsFilledOrder" start time: Apr 12 19:43 CDT
+"OrderTest.CancelRejectsFilledOrder" start time: Apr 19 17:04 CDT
 Output:
 ----------------------------------------------------------
 Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
@@ -563,8 +563,629 @@ Note: Google Test filter = OrderTest.CancelRejectsFilledOrder
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"OrderTest.CancelRejectsFilledOrder" end time: Apr 12 19:43 CDT
+"OrderTest.CancelRejectsFilledOrder" end time: Apr 19 17:04 CDT
 "OrderTest.CancelRejectsFilledOrder" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 12 19:43 CDT
+22/44 Testing: TradeTest.ConstructorPopulatesAllFieldsCorrectly
+22/44 Test: TradeTest.ConstructorPopulatesAllFieldsCorrectly
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorPopulatesAllFieldsCorrectly" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorPopulatesAllFieldsCorrectly" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorPopulatesAllFieldsCorrectly
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorPopulatesAllFieldsCorrectly
+[       OK ] TradeTest.ConstructorPopulatesAllFieldsCorrectly (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorPopulatesAllFieldsCorrectly" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorPopulatesAllFieldsCorrectly" time elapsed: 00:00:00
+----------------------------------------------------------
+
+23/44 Testing: TradeTest.ConstructorThrowsWhenTradeIdIsZero
+23/44 Test: TradeTest.ConstructorThrowsWhenTradeIdIsZero
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenTradeIdIsZero" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenTradeIdIsZero" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenTradeIdIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenTradeIdIsZero
+[       OK ] TradeTest.ConstructorThrowsWhenTradeIdIsZero (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenTradeIdIsZero" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenTradeIdIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+24/44 Testing: TradeTest.ConstructorThrowsWhenBuyOrderIdIsZero
+24/44 Test: TradeTest.ConstructorThrowsWhenBuyOrderIdIsZero
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenBuyOrderIdIsZero" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenBuyOrderIdIsZero" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenBuyOrderIdIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenBuyOrderIdIsZero
+[       OK ] TradeTest.ConstructorThrowsWhenBuyOrderIdIsZero (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenBuyOrderIdIsZero" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenBuyOrderIdIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/44 Testing: TradeTest.ConstructorThrowsWhenSellOrderIdIsZero
+25/44 Test: TradeTest.ConstructorThrowsWhenSellOrderIdIsZero
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenSellOrderIdIsZero" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenSellOrderIdIsZero" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenSellOrderIdIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenSellOrderIdIsZero
+[       OK ] TradeTest.ConstructorThrowsWhenSellOrderIdIsZero (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenSellOrderIdIsZero" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenSellOrderIdIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/44 Testing: TradeTest.ConstructorThrowsWhenBuyAndSellOrderIdsMatch
+26/44 Test: TradeTest.ConstructorThrowsWhenBuyAndSellOrderIdsMatch
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenBuyAndSellOrderIdsMatch" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenBuyAndSellOrderIdsMatch" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenBuyAndSellOrderIdsMatch
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenBuyAndSellOrderIdsMatch
+[       OK ] TradeTest.ConstructorThrowsWhenBuyAndSellOrderIdsMatch (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenBuyAndSellOrderIdsMatch" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenBuyAndSellOrderIdsMatch" time elapsed: 00:00:00
+----------------------------------------------------------
+
+27/44 Testing: TradeTest.ConstructorThrowsWhenPriceIsZero
+27/44 Test: TradeTest.ConstructorThrowsWhenPriceIsZero
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenPriceIsZero" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenPriceIsZero" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenPriceIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenPriceIsZero
+[       OK ] TradeTest.ConstructorThrowsWhenPriceIsZero (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenPriceIsZero" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenPriceIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/44 Testing: TradeTest.ConstructorThrowsWhenQuantityIsZero
+28/44 Test: TradeTest.ConstructorThrowsWhenQuantityIsZero
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenQuantityIsZero" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenQuantityIsZero" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenQuantityIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenQuantityIsZero
+[       OK ] TradeTest.ConstructorThrowsWhenQuantityIsZero (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenQuantityIsZero" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenQuantityIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/44 Testing: TradeTest.ConstructorThrowsWhenTimestampIsZero
+29/44 Test: TradeTest.ConstructorThrowsWhenTimestampIsZero
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenTimestampIsZero" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenTimestampIsZero" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenTimestampIsZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenTimestampIsZero
+[       OK ] TradeTest.ConstructorThrowsWhenTimestampIsZero (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenTimestampIsZero" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenTimestampIsZero" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/44 Testing: TradeTest.ConstructorThrowsWhenTradeIdIsNegative
+30/44 Test: TradeTest.ConstructorThrowsWhenTradeIdIsNegative
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenTradeIdIsNegative" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenTradeIdIsNegative" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenTradeIdIsNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenTradeIdIsNegative
+[       OK ] TradeTest.ConstructorThrowsWhenTradeIdIsNegative (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenTradeIdIsNegative" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenTradeIdIsNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/44 Testing: TradeTest.ConstructorThrowsWhenPriceIsNegative
+31/44 Test: TradeTest.ConstructorThrowsWhenPriceIsNegative
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenPriceIsNegative" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenPriceIsNegative" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenPriceIsNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenPriceIsNegative
+[       OK ] TradeTest.ConstructorThrowsWhenPriceIsNegative (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenPriceIsNegative" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenPriceIsNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/44 Testing: TradeTest.ConstructorThrowsWhenQuantityIsNegative
+32/44 Test: TradeTest.ConstructorThrowsWhenQuantityIsNegative
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest" "--gtest_filter=TradeTest.ConstructorThrowsWhenQuantityIsNegative" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"TradeTest.ConstructorThrowsWhenQuantityIsNegative" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = TradeTest.ConstructorThrowsWhenQuantityIsNegative
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TradeTest
+[ RUN      ] TradeTest.ConstructorThrowsWhenQuantityIsNegative
+[       OK ] TradeTest.ConstructorThrowsWhenQuantityIsNegative (0 ms)
+[----------] 1 test from TradeTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TradeTest.ConstructorThrowsWhenQuantityIsNegative" end time: Apr 19 17:04 CDT
+"TradeTest.ConstructorThrowsWhenQuantityIsNegative" time elapsed: 00:00:00
+----------------------------------------------------------
+
+33/44 Testing: OrderBookTest.ConstructsForSingleSymbol
+33/44 Test: OrderBookTest.ConstructsForSingleSymbol
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.ConstructsForSingleSymbol" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.ConstructsForSingleSymbol" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.ConstructsForSingleSymbol
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.ConstructsForSingleSymbol
+[       OK ] OrderBookTest.ConstructsForSingleSymbol (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.ConstructsForSingleSymbol" end time: Apr 19 17:04 CDT
+"OrderBookTest.ConstructsForSingleSymbol" time elapsed: 00:00:00
+----------------------------------------------------------
+
+34/44 Testing: OrderBookTest.AddBuyLimitOrderToEmptyBook
+34/44 Test: OrderBookTest.AddBuyLimitOrderToEmptyBook
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.AddBuyLimitOrderToEmptyBook" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.AddBuyLimitOrderToEmptyBook" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.AddBuyLimitOrderToEmptyBook
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.AddBuyLimitOrderToEmptyBook
+[       OK ] OrderBookTest.AddBuyLimitOrderToEmptyBook (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.AddBuyLimitOrderToEmptyBook" end time: Apr 19 17:04 CDT
+"OrderBookTest.AddBuyLimitOrderToEmptyBook" time elapsed: 00:00:00
+----------------------------------------------------------
+
+35/44 Testing: OrderBookTest.AddSellLimitOrderToEmptyBook
+35/44 Test: OrderBookTest.AddSellLimitOrderToEmptyBook
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.AddSellLimitOrderToEmptyBook" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.AddSellLimitOrderToEmptyBook" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.AddSellLimitOrderToEmptyBook
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.AddSellLimitOrderToEmptyBook
+[       OK ] OrderBookTest.AddSellLimitOrderToEmptyBook (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.AddSellLimitOrderToEmptyBook" end time: Apr 19 17:04 CDT
+"OrderBookTest.AddSellLimitOrderToEmptyBook" time elapsed: 00:00:00
+----------------------------------------------------------
+
+36/44 Testing: OrderBookTest.BuyOrderMatchesRestingAsk
+36/44 Test: OrderBookTest.BuyOrderMatchesRestingAsk
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.BuyOrderMatchesRestingAsk" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.BuyOrderMatchesRestingAsk" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.BuyOrderMatchesRestingAsk
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.BuyOrderMatchesRestingAsk
+[       OK ] OrderBookTest.BuyOrderMatchesRestingAsk (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.BuyOrderMatchesRestingAsk" end time: Apr 19 17:04 CDT
+"OrderBookTest.BuyOrderMatchesRestingAsk" time elapsed: 00:00:00
+----------------------------------------------------------
+
+37/44 Testing: OrderBookTest.SellOrderMatchesRestingBid
+37/44 Test: OrderBookTest.SellOrderMatchesRestingBid
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.SellOrderMatchesRestingBid" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.SellOrderMatchesRestingBid" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.SellOrderMatchesRestingBid
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.SellOrderMatchesRestingBid
+[       OK ] OrderBookTest.SellOrderMatchesRestingBid (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.SellOrderMatchesRestingBid" end time: Apr 19 17:04 CDT
+"OrderBookTest.SellOrderMatchesRestingBid" time elapsed: 00:00:00
+----------------------------------------------------------
+
+38/44 Testing: OrderBookTest.PartialFillLeavesRemainderOnRestingBookSide
+38/44 Test: OrderBookTest.PartialFillLeavesRemainderOnRestingBookSide
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.PartialFillLeavesRemainderOnRestingBookSide" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.PartialFillLeavesRemainderOnRestingBookSide" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.PartialFillLeavesRemainderOnRestingBookSide
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.PartialFillLeavesRemainderOnRestingBookSide
+[       OK ] OrderBookTest.PartialFillLeavesRemainderOnRestingBookSide (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.PartialFillLeavesRemainderOnRestingBookSide" end time: Apr 19 17:04 CDT
+"OrderBookTest.PartialFillLeavesRemainderOnRestingBookSide" time elapsed: 00:00:00
+----------------------------------------------------------
+
+39/44 Testing: OrderBookTest.UnfilledLimitRemainderRestsOnBook
+39/44 Test: OrderBookTest.UnfilledLimitRemainderRestsOnBook
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.UnfilledLimitRemainderRestsOnBook" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.UnfilledLimitRemainderRestsOnBook" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.UnfilledLimitRemainderRestsOnBook
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.UnfilledLimitRemainderRestsOnBook
+[       OK ] OrderBookTest.UnfilledLimitRemainderRestsOnBook (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.UnfilledLimitRemainderRestsOnBook" end time: Apr 19 17:04 CDT
+"OrderBookTest.UnfilledLimitRemainderRestsOnBook" time elapsed: 00:00:00
+----------------------------------------------------------
+
+40/44 Testing: OrderBookTest.MarketOrderConsumesLiquidityAndDoesNotRest
+40/44 Test: OrderBookTest.MarketOrderConsumesLiquidityAndDoesNotRest
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.MarketOrderConsumesLiquidityAndDoesNotRest" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.MarketOrderConsumesLiquidityAndDoesNotRest" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.MarketOrderConsumesLiquidityAndDoesNotRest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.MarketOrderConsumesLiquidityAndDoesNotRest
+[       OK ] OrderBookTest.MarketOrderConsumesLiquidityAndDoesNotRest (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.MarketOrderConsumesLiquidityAndDoesNotRest" end time: Apr 19 17:04 CDT
+"OrderBookTest.MarketOrderConsumesLiquidityAndDoesNotRest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+41/44 Testing: OrderBookTest.CancelExistingOrderRemovesItFromBook
+41/44 Test: OrderBookTest.CancelExistingOrderRemovesItFromBook
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.CancelExistingOrderRemovesItFromBook" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.CancelExistingOrderRemovesItFromBook" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.CancelExistingOrderRemovesItFromBook
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.CancelExistingOrderRemovesItFromBook
+[       OK ] OrderBookTest.CancelExistingOrderRemovesItFromBook (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.CancelExistingOrderRemovesItFromBook" end time: Apr 19 17:04 CDT
+"OrderBookTest.CancelExistingOrderRemovesItFromBook" time elapsed: 00:00:00
+----------------------------------------------------------
+
+42/44 Testing: OrderBookTest.CancelMissingOrderReturnsFalse
+42/44 Test: OrderBookTest.CancelMissingOrderReturnsFalse
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.CancelMissingOrderReturnsFalse" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.CancelMissingOrderReturnsFalse" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.CancelMissingOrderReturnsFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.CancelMissingOrderReturnsFalse
+[       OK ] OrderBookTest.CancelMissingOrderReturnsFalse (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.CancelMissingOrderReturnsFalse" end time: Apr 19 17:04 CDT
+"OrderBookTest.CancelMissingOrderReturnsFalse" time elapsed: 00:00:00
+----------------------------------------------------------
+
+43/44 Testing: OrderBookTest.EnforcesPriceTimePriorityWithinSamePriceLevel
+43/44 Test: OrderBookTest.EnforcesPriceTimePriorityWithinSamePriceLevel
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.EnforcesPriceTimePriorityWithinSamePriceLevel" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.EnforcesPriceTimePriorityWithinSamePriceLevel" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.EnforcesPriceTimePriorityWithinSamePriceLevel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.EnforcesPriceTimePriorityWithinSamePriceLevel
+[       OK ] OrderBookTest.EnforcesPriceTimePriorityWithinSamePriceLevel (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.EnforcesPriceTimePriorityWithinSamePriceLevel" end time: Apr 19 17:04 CDT
+"OrderBookTest.EnforcesPriceTimePriorityWithinSamePriceLevel" time elapsed: 00:00:00
+----------------------------------------------------------
+
+44/44 Testing: OrderBookTest.RejectsOrderForDifferentSymbol
+44/44 Test: OrderBookTest.RejectsOrderForDifferentSymbol
+Command: "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest" "--gtest_filter=OrderBookTest.RejectsOrderForDifferentSymbol" "--gtest_also_run_disabled_tests"
+Directory: /home/kurt/Documents/Developement/market-backend-system/build/tests
+"OrderBookTest.RejectsOrderForDifferentSymbol" start time: Apr 19 17:04 CDT
+Output:
+----------------------------------------------------------
+Running main() from /home/kurt/Documents/Developement/market-backend-system/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = OrderBookTest.RejectsOrderForDifferentSymbol
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from OrderBookTest
+[ RUN      ] OrderBookTest.RejectsOrderForDifferentSymbol
+[       OK ] OrderBookTest.RejectsOrderForDifferentSymbol (0 ms)
+[----------] 1 test from OrderBookTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"OrderBookTest.RejectsOrderForDifferentSymbol" end time: Apr 19 17:04 CDT
+"OrderBookTest.RejectsOrderForDifferentSymbol" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 19 17:04 CDT

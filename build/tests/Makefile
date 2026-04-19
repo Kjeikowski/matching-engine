@@ -186,18 +186,56 @@ OrderTest/fast:
 .PHONY : OrderTest/fast
 
 # Convenience name for target.
-tests/CMakeFiles/TraderTest.dir/rule:
-	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/TraderTest.dir/rule
-.PHONY : tests/CMakeFiles/TraderTest.dir/rule
+tests/CMakeFiles/TradeTest.dir/rule:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/TradeTest.dir/rule
+.PHONY : tests/CMakeFiles/TradeTest.dir/rule
 
 # Convenience name for target.
-TraderTest: tests/CMakeFiles/TraderTest.dir/rule
-.PHONY : TraderTest
+TradeTest: tests/CMakeFiles/TradeTest.dir/rule
+.PHONY : TradeTest
 
 # fast build rule for target.
-TraderTest/fast:
-	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TraderTest.dir/build.make tests/CMakeFiles/TraderTest.dir/build
-.PHONY : TraderTest/fast
+TradeTest/fast:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TradeTest.dir/build.make tests/CMakeFiles/TradeTest.dir/build
+.PHONY : TradeTest/fast
+
+# Convenience name for target.
+tests/CMakeFiles/OrderBookTest.dir/rule:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/OrderBookTest.dir/rule
+.PHONY : tests/CMakeFiles/OrderBookTest.dir/rule
+
+# Convenience name for target.
+OrderBookTest: tests/CMakeFiles/OrderBookTest.dir/rule
+.PHONY : OrderBookTest
+
+# fast build rule for target.
+OrderBookTest/fast:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderBookTest.dir/build.make tests/CMakeFiles/OrderBookTest.dir/build
+.PHONY : OrderBookTest/fast
+
+unit/OrderBookTest.o: unit/OrderBookTest.cpp.o
+.PHONY : unit/OrderBookTest.o
+
+# target to build an object file
+unit/OrderBookTest.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderBookTest.dir/build.make tests/CMakeFiles/OrderBookTest.dir/unit/OrderBookTest.cpp.o
+.PHONY : unit/OrderBookTest.cpp.o
+
+unit/OrderBookTest.i: unit/OrderBookTest.cpp.i
+.PHONY : unit/OrderBookTest.i
+
+# target to preprocess a source file
+unit/OrderBookTest.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderBookTest.dir/build.make tests/CMakeFiles/OrderBookTest.dir/unit/OrderBookTest.cpp.i
+.PHONY : unit/OrderBookTest.cpp.i
+
+unit/OrderBookTest.s: unit/OrderBookTest.cpp.s
+.PHONY : unit/OrderBookTest.s
+
+# target to generate assembly for a file
+unit/OrderBookTest.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderBookTest.dir/build.make tests/CMakeFiles/OrderBookTest.dir/unit/OrderBookTest.cpp.s
+.PHONY : unit/OrderBookTest.cpp.s
 
 unit/OrderTest.o: unit/OrderTest.cpp.o
 .PHONY : unit/OrderTest.o
@@ -223,29 +261,29 @@ unit/OrderTest.cpp.s:
 	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderTest.dir/build.make tests/CMakeFiles/OrderTest.dir/unit/OrderTest.cpp.s
 .PHONY : unit/OrderTest.cpp.s
 
-unit/TraderTest.o: unit/TraderTest.cpp.o
-.PHONY : unit/TraderTest.o
+unit/TradeTest.o: unit/TradeTest.cpp.o
+.PHONY : unit/TradeTest.o
 
 # target to build an object file
-unit/TraderTest.cpp.o:
-	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TraderTest.dir/build.make tests/CMakeFiles/TraderTest.dir/unit/TraderTest.cpp.o
-.PHONY : unit/TraderTest.cpp.o
+unit/TradeTest.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TradeTest.dir/build.make tests/CMakeFiles/TradeTest.dir/unit/TradeTest.cpp.o
+.PHONY : unit/TradeTest.cpp.o
 
-unit/TraderTest.i: unit/TraderTest.cpp.i
-.PHONY : unit/TraderTest.i
+unit/TradeTest.i: unit/TradeTest.cpp.i
+.PHONY : unit/TradeTest.i
 
 # target to preprocess a source file
-unit/TraderTest.cpp.i:
-	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TraderTest.dir/build.make tests/CMakeFiles/TraderTest.dir/unit/TraderTest.cpp.i
-.PHONY : unit/TraderTest.cpp.i
+unit/TradeTest.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TradeTest.dir/build.make tests/CMakeFiles/TradeTest.dir/unit/TradeTest.cpp.i
+.PHONY : unit/TradeTest.cpp.i
 
-unit/TraderTest.s: unit/TraderTest.cpp.s
-.PHONY : unit/TraderTest.s
+unit/TradeTest.s: unit/TradeTest.cpp.s
+.PHONY : unit/TradeTest.s
 
 # target to generate assembly for a file
-unit/TraderTest.cpp.s:
-	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TraderTest.dir/build.make tests/CMakeFiles/TraderTest.dir/unit/TraderTest.cpp.s
-.PHONY : unit/TraderTest.cpp.s
+unit/TradeTest.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TradeTest.dir/build.make tests/CMakeFiles/TradeTest.dir/unit/TradeTest.cpp.s
+.PHONY : unit/TradeTest.cpp.s
 
 # Help Target
 help:
@@ -260,14 +298,18 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... OrderBookTest"
 	@echo "... OrderTest"
-	@echo "... TraderTest"
+	@echo "... TradeTest"
+	@echo "... unit/OrderBookTest.o"
+	@echo "... unit/OrderBookTest.i"
+	@echo "... unit/OrderBookTest.s"
 	@echo "... unit/OrderTest.o"
 	@echo "... unit/OrderTest.i"
 	@echo "... unit/OrderTest.s"
-	@echo "... unit/TraderTest.o"
-	@echo "... unit/TraderTest.i"
-	@echo "... unit/TraderTest.s"
+	@echo "... unit/TradeTest.o"
+	@echo "... unit/TradeTest.i"
+	@echo "... unit/TradeTest.s"
 .PHONY : help
 
 

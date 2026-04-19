@@ -1,0 +1,5 @@
+if(EXISTS "/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest[1]_tests.cmake")
+  include("/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest[1]_tests.cmake")
+else()
+  add_test(TradeTest_NOT_BUILT TradeTest_NOT_BUILT)
+endif()

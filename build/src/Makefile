@@ -209,29 +209,53 @@ domain/Order.cpp.s:
 	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/Order.cpp.s
 .PHONY : domain/Order.cpp.s
 
-domain/Trader.o: domain/Trader.cpp.o
-.PHONY : domain/Trader.o
+domain/OrderBook.o: domain/OrderBook.cpp.o
+.PHONY : domain/OrderBook.o
 
 # target to build an object file
-domain/Trader.cpp.o:
-	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/Trader.cpp.o
-.PHONY : domain/Trader.cpp.o
+domain/OrderBook.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.o
+.PHONY : domain/OrderBook.cpp.o
 
-domain/Trader.i: domain/Trader.cpp.i
-.PHONY : domain/Trader.i
+domain/OrderBook.i: domain/OrderBook.cpp.i
+.PHONY : domain/OrderBook.i
 
 # target to preprocess a source file
-domain/Trader.cpp.i:
-	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/Trader.cpp.i
-.PHONY : domain/Trader.cpp.i
+domain/OrderBook.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.i
+.PHONY : domain/OrderBook.cpp.i
 
-domain/Trader.s: domain/Trader.cpp.s
-.PHONY : domain/Trader.s
+domain/OrderBook.s: domain/OrderBook.cpp.s
+.PHONY : domain/OrderBook.s
 
 # target to generate assembly for a file
-domain/Trader.cpp.s:
-	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/Trader.cpp.s
-.PHONY : domain/Trader.cpp.s
+domain/OrderBook.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.s
+.PHONY : domain/OrderBook.cpp.s
+
+domain/Trade.o: domain/Trade.cpp.o
+.PHONY : domain/Trade.o
+
+# target to build an object file
+domain/Trade.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/Trade.cpp.o
+.PHONY : domain/Trade.cpp.o
+
+domain/Trade.i: domain/Trade.cpp.i
+.PHONY : domain/Trade.i
+
+# target to preprocess a source file
+domain/Trade.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/Trade.cpp.i
+.PHONY : domain/Trade.cpp.i
+
+domain/Trade.s: domain/Trade.cpp.s
+.PHONY : domain/Trade.s
+
+# target to generate assembly for a file
+domain/Trade.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/Trade.cpp.s
+.PHONY : domain/Trade.cpp.s
 
 # Help Target
 help:
@@ -250,9 +274,12 @@ help:
 	@echo "... domain/Order.o"
 	@echo "... domain/Order.i"
 	@echo "... domain/Order.s"
-	@echo "... domain/Trader.o"
-	@echo "... domain/Trader.i"
-	@echo "... domain/Trader.s"
+	@echo "... domain/OrderBook.o"
+	@echo "... domain/OrderBook.i"
+	@echo "... domain/OrderBook.s"
+	@echo "... domain/Trade.o"
+	@echo "... domain/Trade.i"
+	@echo "... domain/Trade.s"
 .PHONY : help
 
 

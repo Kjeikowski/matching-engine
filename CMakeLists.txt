@@ -22,5 +22,5 @@ add_subdirectory(tests)
 
 add_custom_target(run_tests
     COMMAND ${CMAKE_CTEST_COMMAND} --output-on-failure
-    DEPENDS OrderTest TraderTest
+    DEPENDS OrderTest TradeTest OrderBookTest
 )

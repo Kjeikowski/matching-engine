@@ -5,6 +5,11 @@
 
 namespace trading::domain {
 
+struct TradeId {
+  explicit TradeId(std::int64_t v) : value(v) {}
+  std::int64_t value;
+};
+
 struct Symbol {
   explicit Symbol(std::string v) : value(v) {}
   std::string value;
@@ -23,6 +28,11 @@ struct OrderId {
 struct Quantity {
   explicit Quantity(std::int64_t v) : value(v) {}
   std::int64_t value;
+};
+
+struct Timestamp {
+  explicit Timestamp(std::int64_t v) : value(v) {}
+  std::int64_t value;  // microseconds since Unix epoch
 };
 
 struct Price {

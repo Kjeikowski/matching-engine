@@ -1,0 +1,5 @@
+if(EXISTS "/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest[1]_tests.cmake")
+  include("/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest[1]_tests.cmake")
+else()
+  add_test(OrderBookTest_NOT_BUILT OrderBookTest_NOT_BUILT)
+endif()

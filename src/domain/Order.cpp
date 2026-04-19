@@ -1,5 +1,3 @@
-#include <stdexcept>
-
 #include "domain/Order.hpp"
 
 namespace trading::domain {

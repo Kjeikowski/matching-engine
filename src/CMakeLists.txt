@@ -1,6 +1,7 @@
 add_library(trading_engine
     domain/Order.cpp
-    domain/Trader.cpp
+    domain/Trade.cpp
+    domain/OrderBook.cpp
 )
 
 target_include_directories(trading_engine

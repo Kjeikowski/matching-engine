@@ -67,7 +67,8 @@ include CMakeFiles/run_tests.dir/compiler_depend.make
 include CMakeFiles/run_tests.dir/progress.make
 
 CMakeFiles/run_tests: tests/OrderTest
-CMakeFiles/run_tests: tests/TraderTest
+CMakeFiles/run_tests: tests/TradeTest
+CMakeFiles/run_tests: tests/OrderBookTest
 	/usr/bin/ctest --output-on-failure
 
 run_tests: CMakeFiles/run_tests

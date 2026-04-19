@@ -1,1 +1,0 @@
-set(  TraderTest_TESTS)

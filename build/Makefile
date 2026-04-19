@@ -263,17 +263,30 @@ OrderTest/fast:
 .PHONY : OrderTest/fast
 
 #=============================================================================
-# Target rules for targets named TraderTest
+# Target rules for targets named TradeTest
 
 # Build rule for target.
-TraderTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TraderTest
-.PHONY : TraderTest
+TradeTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TradeTest
+.PHONY : TradeTest
 
 # fast build rule for target.
-TraderTest/fast:
-	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TraderTest.dir/build.make tests/CMakeFiles/TraderTest.dir/build
-.PHONY : TraderTest/fast
+TradeTest/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TradeTest.dir/build.make tests/CMakeFiles/TradeTest.dir/build
+.PHONY : TradeTest/fast
+
+#=============================================================================
+# Target rules for targets named OrderBookTest
+
+# Build rule for target.
+OrderBookTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OrderBookTest
+.PHONY : OrderBookTest
+
+# fast build rule for target.
+OrderBookTest/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderBookTest.dir/build.make tests/CMakeFiles/OrderBookTest.dir/build
+.PHONY : OrderBookTest/fast
 
 # Help Target
 help:
@@ -289,8 +302,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... run_tests"
+	@echo "... OrderBookTest"
 	@echo "... OrderTest"
-	@echo "... TraderTest"
+	@echo "... TradeTest"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
