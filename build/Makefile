@@ -301,6 +301,45 @@ MatchingEngineTest/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/build
 .PHONY : MatchingEngineTest/fast
 
+#=============================================================================
+# Target rules for targets named EngineConfigTest
+
+# Build rule for target.
+EngineConfigTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 EngineConfigTest
+.PHONY : EngineConfigTest
+
+# fast build rule for target.
+EngineConfigTest/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EngineConfigTest.dir/build.make tests/CMakeFiles/EngineConfigTest.dir/build
+.PHONY : EngineConfigTest/fast
+
+#=============================================================================
+# Target rules for targets named ExecutionReportTest
+
+# Build rule for target.
+ExecutionReportTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExecutionReportTest
+.PHONY : ExecutionReportTest
+
+# fast build rule for target.
+ExecutionReportTest/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ExecutionReportTest.dir/build.make tests/CMakeFiles/ExecutionReportTest.dir/build
+.PHONY : ExecutionReportTest/fast
+
+#=============================================================================
+# Target rules for targets named ServiceConfigTest
+
+# Build rule for target.
+ServiceConfigTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ServiceConfigTest
+.PHONY : ServiceConfigTest
+
+# fast build rule for target.
+ServiceConfigTest/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ServiceConfigTest.dir/build.make tests/CMakeFiles/ServiceConfigTest.dir/build
+.PHONY : ServiceConfigTest/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -315,9 +354,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... run_tests"
+	@echo "... EngineConfigTest"
+	@echo "... ExecutionReportTest"
 	@echo "... MatchingEngineTest"
 	@echo "... OrderBookTest"
 	@echo "... OrderTest"
+	@echo "... ServiceConfigTest"
 	@echo "... TradeTest"
 	@echo "... gmock"
 	@echo "... gmock_main"

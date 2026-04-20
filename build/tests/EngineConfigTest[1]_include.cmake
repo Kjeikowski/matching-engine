@@ -1,0 +1,5 @@
+if(EXISTS "/home/kurt/Documents/Developement/market-backend-system/build/tests/EngineConfigTest[1]_tests.cmake")
+  include("/home/kurt/Documents/Developement/market-backend-system/build/tests/EngineConfigTest[1]_tests.cmake")
+else()
+  add_test(EngineConfigTest_NOT_BUILT EngineConfigTest_NOT_BUILT)
+endif()

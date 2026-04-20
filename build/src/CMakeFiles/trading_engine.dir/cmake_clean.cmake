@@ -1,4 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o"
+  "CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o.d"
+  "CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o"
+  "CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o.d"
+  "CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o"
+  "CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o.d"
   "CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o"
   "CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o.d"
   "CMakeFiles/trading_engine.dir/domain/Order.cpp.o"

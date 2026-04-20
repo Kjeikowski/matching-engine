@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/ServiceConfigTest.dir/unit/ServiceConfigTest.cpp.o -o ServiceConfigTest  ../src/libtrading_engine.a ../lib/libgtest_main.a ../lib/libgtest.a 

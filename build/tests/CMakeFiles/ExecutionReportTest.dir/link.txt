@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/ExecutionReportTest.dir/unit/ExecutionReportTest.cpp.o -o ExecutionReportTest  ../src/libtrading_engine.a ../lib/libgtest_main.a ../lib/libgtest.a 

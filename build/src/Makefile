@@ -185,6 +185,78 @@ trading_engine/fast:
 	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/build
 .PHONY : trading_engine/fast
 
+config/EngineConfig.o: config/EngineConfig.cpp.o
+.PHONY : config/EngineConfig.o
+
+# target to build an object file
+config/EngineConfig.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o
+.PHONY : config/EngineConfig.cpp.o
+
+config/EngineConfig.i: config/EngineConfig.cpp.i
+.PHONY : config/EngineConfig.i
+
+# target to preprocess a source file
+config/EngineConfig.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.i
+.PHONY : config/EngineConfig.cpp.i
+
+config/EngineConfig.s: config/EngineConfig.cpp.s
+.PHONY : config/EngineConfig.s
+
+# target to generate assembly for a file
+config/EngineConfig.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.s
+.PHONY : config/EngineConfig.cpp.s
+
+config/ServiceConfig.o: config/ServiceConfig.cpp.o
+.PHONY : config/ServiceConfig.o
+
+# target to build an object file
+config/ServiceConfig.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o
+.PHONY : config/ServiceConfig.cpp.o
+
+config/ServiceConfig.i: config/ServiceConfig.cpp.i
+.PHONY : config/ServiceConfig.i
+
+# target to preprocess a source file
+config/ServiceConfig.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.i
+.PHONY : config/ServiceConfig.cpp.i
+
+config/ServiceConfig.s: config/ServiceConfig.cpp.s
+.PHONY : config/ServiceConfig.s
+
+# target to generate assembly for a file
+config/ServiceConfig.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.s
+.PHONY : config/ServiceConfig.cpp.s
+
+domain/ExecutionReport.o: domain/ExecutionReport.cpp.o
+.PHONY : domain/ExecutionReport.o
+
+# target to build an object file
+domain/ExecutionReport.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o
+.PHONY : domain/ExecutionReport.cpp.o
+
+domain/ExecutionReport.i: domain/ExecutionReport.cpp.i
+.PHONY : domain/ExecutionReport.i
+
+# target to preprocess a source file
+domain/ExecutionReport.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.i
+.PHONY : domain/ExecutionReport.cpp.i
+
+domain/ExecutionReport.s: domain/ExecutionReport.cpp.s
+.PHONY : domain/ExecutionReport.s
+
+# target to generate assembly for a file
+domain/ExecutionReport.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.s
+.PHONY : domain/ExecutionReport.cpp.s
+
 domain/MatchingEngine.o: domain/MatchingEngine.cpp.o
 .PHONY : domain/MatchingEngine.o
 
@@ -295,6 +367,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... trading_engine"
+	@echo "... config/EngineConfig.o"
+	@echo "... config/EngineConfig.i"
+	@echo "... config/EngineConfig.s"
+	@echo "... config/ServiceConfig.o"
+	@echo "... config/ServiceConfig.i"
+	@echo "... config/ServiceConfig.s"
+	@echo "... domain/ExecutionReport.o"
+	@echo "... domain/ExecutionReport.i"
+	@echo "... domain/ExecutionReport.s"
 	@echo "... domain/MatchingEngine.o"
 	@echo "... domain/MatchingEngine.i"
 	@echo "... domain/MatchingEngine.s"

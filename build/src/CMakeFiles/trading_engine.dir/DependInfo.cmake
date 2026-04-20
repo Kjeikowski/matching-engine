@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/kurt/Documents/Developement/market-backend-system/src/config/EngineConfig.cpp" "src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o" "gcc" "src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o.d"
+  "/home/kurt/Documents/Developement/market-backend-system/src/config/ServiceConfig.cpp" "src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o" "gcc" "src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o.d"
+  "/home/kurt/Documents/Developement/market-backend-system/src/domain/ExecutionReport.cpp" "src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o" "gcc" "src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o.d"
   "/home/kurt/Documents/Developement/market-backend-system/src/domain/MatchingEngine.cpp" "src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o" "gcc" "src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o.d"
   "/home/kurt/Documents/Developement/market-backend-system/src/domain/Order.cpp" "src/CMakeFiles/trading_engine.dir/domain/Order.cpp.o" "gcc" "src/CMakeFiles/trading_engine.dir/domain/Order.cpp.o.d"
   "/home/kurt/Documents/Developement/market-backend-system/src/domain/OrderBook.cpp" "src/CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.o" "gcc" "src/CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.o.d"

@@ -227,6 +227,96 @@ MatchingEngineTest/fast:
 	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/build
 .PHONY : MatchingEngineTest/fast
 
+# Convenience name for target.
+tests/CMakeFiles/EngineConfigTest.dir/rule:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/EngineConfigTest.dir/rule
+.PHONY : tests/CMakeFiles/EngineConfigTest.dir/rule
+
+# Convenience name for target.
+EngineConfigTest: tests/CMakeFiles/EngineConfigTest.dir/rule
+.PHONY : EngineConfigTest
+
+# fast build rule for target.
+EngineConfigTest/fast:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EngineConfigTest.dir/build.make tests/CMakeFiles/EngineConfigTest.dir/build
+.PHONY : EngineConfigTest/fast
+
+# Convenience name for target.
+tests/CMakeFiles/ExecutionReportTest.dir/rule:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExecutionReportTest.dir/rule
+.PHONY : tests/CMakeFiles/ExecutionReportTest.dir/rule
+
+# Convenience name for target.
+ExecutionReportTest: tests/CMakeFiles/ExecutionReportTest.dir/rule
+.PHONY : ExecutionReportTest
+
+# fast build rule for target.
+ExecutionReportTest/fast:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ExecutionReportTest.dir/build.make tests/CMakeFiles/ExecutionReportTest.dir/build
+.PHONY : ExecutionReportTest/fast
+
+# Convenience name for target.
+tests/CMakeFiles/ServiceConfigTest.dir/rule:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/ServiceConfigTest.dir/rule
+.PHONY : tests/CMakeFiles/ServiceConfigTest.dir/rule
+
+# Convenience name for target.
+ServiceConfigTest: tests/CMakeFiles/ServiceConfigTest.dir/rule
+.PHONY : ServiceConfigTest
+
+# fast build rule for target.
+ServiceConfigTest/fast:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ServiceConfigTest.dir/build.make tests/CMakeFiles/ServiceConfigTest.dir/build
+.PHONY : ServiceConfigTest/fast
+
+unit/EngineConfigTest.o: unit/EngineConfigTest.cpp.o
+.PHONY : unit/EngineConfigTest.o
+
+# target to build an object file
+unit/EngineConfigTest.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EngineConfigTest.dir/build.make tests/CMakeFiles/EngineConfigTest.dir/unit/EngineConfigTest.cpp.o
+.PHONY : unit/EngineConfigTest.cpp.o
+
+unit/EngineConfigTest.i: unit/EngineConfigTest.cpp.i
+.PHONY : unit/EngineConfigTest.i
+
+# target to preprocess a source file
+unit/EngineConfigTest.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EngineConfigTest.dir/build.make tests/CMakeFiles/EngineConfigTest.dir/unit/EngineConfigTest.cpp.i
+.PHONY : unit/EngineConfigTest.cpp.i
+
+unit/EngineConfigTest.s: unit/EngineConfigTest.cpp.s
+.PHONY : unit/EngineConfigTest.s
+
+# target to generate assembly for a file
+unit/EngineConfigTest.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EngineConfigTest.dir/build.make tests/CMakeFiles/EngineConfigTest.dir/unit/EngineConfigTest.cpp.s
+.PHONY : unit/EngineConfigTest.cpp.s
+
+unit/ExecutionReportTest.o: unit/ExecutionReportTest.cpp.o
+.PHONY : unit/ExecutionReportTest.o
+
+# target to build an object file
+unit/ExecutionReportTest.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ExecutionReportTest.dir/build.make tests/CMakeFiles/ExecutionReportTest.dir/unit/ExecutionReportTest.cpp.o
+.PHONY : unit/ExecutionReportTest.cpp.o
+
+unit/ExecutionReportTest.i: unit/ExecutionReportTest.cpp.i
+.PHONY : unit/ExecutionReportTest.i
+
+# target to preprocess a source file
+unit/ExecutionReportTest.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ExecutionReportTest.dir/build.make tests/CMakeFiles/ExecutionReportTest.dir/unit/ExecutionReportTest.cpp.i
+.PHONY : unit/ExecutionReportTest.cpp.i
+
+unit/ExecutionReportTest.s: unit/ExecutionReportTest.cpp.s
+.PHONY : unit/ExecutionReportTest.s
+
+# target to generate assembly for a file
+unit/ExecutionReportTest.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ExecutionReportTest.dir/build.make tests/CMakeFiles/ExecutionReportTest.dir/unit/ExecutionReportTest.cpp.s
+.PHONY : unit/ExecutionReportTest.cpp.s
+
 unit/MatchingEngineTest.o: unit/MatchingEngineTest.cpp.o
 .PHONY : unit/MatchingEngineTest.o
 
@@ -299,6 +389,30 @@ unit/OrderTest.cpp.s:
 	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderTest.dir/build.make tests/CMakeFiles/OrderTest.dir/unit/OrderTest.cpp.s
 .PHONY : unit/OrderTest.cpp.s
 
+unit/ServiceConfigTest.o: unit/ServiceConfigTest.cpp.o
+.PHONY : unit/ServiceConfigTest.o
+
+# target to build an object file
+unit/ServiceConfigTest.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ServiceConfigTest.dir/build.make tests/CMakeFiles/ServiceConfigTest.dir/unit/ServiceConfigTest.cpp.o
+.PHONY : unit/ServiceConfigTest.cpp.o
+
+unit/ServiceConfigTest.i: unit/ServiceConfigTest.cpp.i
+.PHONY : unit/ServiceConfigTest.i
+
+# target to preprocess a source file
+unit/ServiceConfigTest.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ServiceConfigTest.dir/build.make tests/CMakeFiles/ServiceConfigTest.dir/unit/ServiceConfigTest.cpp.i
+.PHONY : unit/ServiceConfigTest.cpp.i
+
+unit/ServiceConfigTest.s: unit/ServiceConfigTest.cpp.s
+.PHONY : unit/ServiceConfigTest.s
+
+# target to generate assembly for a file
+unit/ServiceConfigTest.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ServiceConfigTest.dir/build.make tests/CMakeFiles/ServiceConfigTest.dir/unit/ServiceConfigTest.cpp.s
+.PHONY : unit/ServiceConfigTest.cpp.s
+
 unit/TradeTest.o: unit/TradeTest.cpp.o
 .PHONY : unit/TradeTest.o
 
@@ -336,10 +450,19 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... EngineConfigTest"
+	@echo "... ExecutionReportTest"
 	@echo "... MatchingEngineTest"
 	@echo "... OrderBookTest"
 	@echo "... OrderTest"
+	@echo "... ServiceConfigTest"
 	@echo "... TradeTest"
+	@echo "... unit/EngineConfigTest.o"
+	@echo "... unit/EngineConfigTest.i"
+	@echo "... unit/EngineConfigTest.s"
+	@echo "... unit/ExecutionReportTest.o"
+	@echo "... unit/ExecutionReportTest.i"
+	@echo "... unit/ExecutionReportTest.s"
 	@echo "... unit/MatchingEngineTest.o"
 	@echo "... unit/MatchingEngineTest.i"
 	@echo "... unit/MatchingEngineTest.s"
@@ -349,6 +472,9 @@ help:
 	@echo "... unit/OrderTest.o"
 	@echo "... unit/OrderTest.i"
 	@echo "... unit/OrderTest.s"
+	@echo "... unit/ServiceConfigTest.o"
+	@echo "... unit/ServiceConfigTest.i"
+	@echo "... unit/ServiceConfigTest.s"
 	@echo "... unit/TradeTest.o"
 	@echo "... unit/TradeTest.i"
 	@echo "... unit/TradeTest.s"

@@ -111,10 +111,24 @@ src/CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.s"
 	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kurt/Documents/Developement/market-backend-system/src/domain/OrderBook.cpp -o CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.s
 
+src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o: src/CMakeFiles/trading_engine.dir/flags.make
+src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o: /home/kurt/Documents/Developement/market-backend-system/src/domain/ExecutionReport.cpp
+src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o: src/CMakeFiles/trading_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o"
+	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o -MF CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o.d -o CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o -c /home/kurt/Documents/Developement/market-backend-system/src/domain/ExecutionReport.cpp
+
+src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.i"
+	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kurt/Documents/Developement/market-backend-system/src/domain/ExecutionReport.cpp > CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.i
+
+src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.s"
+	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kurt/Documents/Developement/market-backend-system/src/domain/ExecutionReport.cpp -o CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.s
+
 src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o: src/CMakeFiles/trading_engine.dir/flags.make
 src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o: /home/kurt/Documents/Developement/market-backend-system/src/domain/MatchingEngine.cpp
 src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o: src/CMakeFiles/trading_engine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o"
 	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o -MF CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o.d -o CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o -c /home/kurt/Documents/Developement/market-backend-system/src/domain/MatchingEngine.cpp
 
 src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.i: cmake_force
@@ -125,12 +139,43 @@ src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.s"
 	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kurt/Documents/Developement/market-backend-system/src/domain/MatchingEngine.cpp -o CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.s
 
+src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o: src/CMakeFiles/trading_engine.dir/flags.make
+src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o: /home/kurt/Documents/Developement/market-backend-system/src/config/EngineConfig.cpp
+src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o: src/CMakeFiles/trading_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o"
+	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o -MF CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o.d -o CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o -c /home/kurt/Documents/Developement/market-backend-system/src/config/EngineConfig.cpp
+
+src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.i"
+	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kurt/Documents/Developement/market-backend-system/src/config/EngineConfig.cpp > CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.i
+
+src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.s"
+	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kurt/Documents/Developement/market-backend-system/src/config/EngineConfig.cpp -o CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.s
+
+src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o: src/CMakeFiles/trading_engine.dir/flags.make
+src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o: /home/kurt/Documents/Developement/market-backend-system/src/config/ServiceConfig.cpp
+src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o: src/CMakeFiles/trading_engine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o"
+	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o -MF CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o.d -o CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o -c /home/kurt/Documents/Developement/market-backend-system/src/config/ServiceConfig.cpp
+
+src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.i"
+	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kurt/Documents/Developement/market-backend-system/src/config/ServiceConfig.cpp > CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.i
+
+src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.s"
+	cd /home/kurt/Documents/Developement/market-backend-system/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kurt/Documents/Developement/market-backend-system/src/config/ServiceConfig.cpp -o CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.s
+
 # Object files for target trading_engine
 trading_engine_OBJECTS = \
 "CMakeFiles/trading_engine.dir/domain/Order.cpp.o" \
 "CMakeFiles/trading_engine.dir/domain/Trade.cpp.o" \
 "CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.o" \
-"CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o"
+"CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o" \
+"CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o" \
+"CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o" \
+"CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o"
 
 # External object files for target trading_engine
 trading_engine_EXTERNAL_OBJECTS =
@@ -138,10 +183,13 @@ trading_engine_EXTERNAL_OBJECTS =
 src/libtrading_engine.a: src/CMakeFiles/trading_engine.dir/domain/Order.cpp.o
 src/libtrading_engine.a: src/CMakeFiles/trading_engine.dir/domain/Trade.cpp.o
 src/libtrading_engine.a: src/CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.o
+src/libtrading_engine.a: src/CMakeFiles/trading_engine.dir/domain/ExecutionReport.cpp.o
 src/libtrading_engine.a: src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o
+src/libtrading_engine.a: src/CMakeFiles/trading_engine.dir/config/EngineConfig.cpp.o
+src/libtrading_engine.a: src/CMakeFiles/trading_engine.dir/config/ServiceConfig.cpp.o
 src/libtrading_engine.a: src/CMakeFiles/trading_engine.dir/build.make
 src/libtrading_engine.a: src/CMakeFiles/trading_engine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libtrading_engine.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libtrading_engine.a"
 	cd /home/kurt/Documents/Developement/market-backend-system/build/src && $(CMAKE_COMMAND) -P CMakeFiles/trading_engine.dir/cmake_clean_target.cmake
 	cd /home/kurt/Documents/Developement/market-backend-system/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/trading_engine.dir/link.txt --verbose=$(VERBOSE)
 

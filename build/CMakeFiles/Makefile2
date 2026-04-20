@@ -155,6 +155,9 @@ tests/all: tests/CMakeFiles/OrderTest.dir/all
 tests/all: tests/CMakeFiles/TradeTest.dir/all
 tests/all: tests/CMakeFiles/OrderBookTest.dir/all
 tests/all: tests/CMakeFiles/MatchingEngineTest.dir/all
+tests/all: tests/CMakeFiles/EngineConfigTest.dir/all
+tests/all: tests/CMakeFiles/ExecutionReportTest.dir/all
+tests/all: tests/CMakeFiles/ServiceConfigTest.dir/all
 .PHONY : tests/all
 
 # Recursive "preinstall" directory target.
@@ -166,6 +169,9 @@ tests/clean: tests/CMakeFiles/OrderTest.dir/clean
 tests/clean: tests/CMakeFiles/TradeTest.dir/clean
 tests/clean: tests/CMakeFiles/OrderBookTest.dir/clean
 tests/clean: tests/CMakeFiles/MatchingEngineTest.dir/clean
+tests/clean: tests/CMakeFiles/EngineConfigTest.dir/clean
+tests/clean: tests/CMakeFiles/ExecutionReportTest.dir/clean
+tests/clean: tests/CMakeFiles/ServiceConfigTest.dir/clean
 .PHONY : tests/clean
 
 #=============================================================================
@@ -182,7 +188,7 @@ CMakeFiles/run_tests.dir/all: tests/CMakeFiles/OrderBookTest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/run_tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/run_tests.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 0
 .PHONY : CMakeFiles/run_tests.dir/rule
@@ -203,7 +209,7 @@ CMakeFiles/run_tests.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=9,10 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=15,16 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -230,7 +236,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=11,12 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=17,18 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -256,7 +262,7 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=13,14 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=19,20 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -282,7 +288,7 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=15,16 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=21,22 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -308,12 +314,12 @@ _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/clean:
 src/CMakeFiles/trading_engine.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=17,18,19,20,21 "Built target trading_engine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30 "Built target trading_engine"
 .PHONY : src/CMakeFiles/trading_engine.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/trading_engine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/trading_engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/trading_engine.dir/rule
@@ -336,12 +342,12 @@ tests/CMakeFiles/OrderTest.dir/all: _deps/googletest-build/googletest/CMakeFiles
 tests/CMakeFiles/OrderTest.dir/all: src/CMakeFiles/trading_engine.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderTest.dir/build.make tests/CMakeFiles/OrderTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderTest.dir/build.make tests/CMakeFiles/OrderTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=5,6 "Built target OrderTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=9,10 "Built target OrderTest"
 .PHONY : tests/CMakeFiles/OrderTest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/OrderTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/OrderTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 0
 .PHONY : tests/CMakeFiles/OrderTest.dir/rule
@@ -364,12 +370,12 @@ tests/CMakeFiles/TradeTest.dir/all: _deps/googletest-build/googletest/CMakeFiles
 tests/CMakeFiles/TradeTest.dir/all: src/CMakeFiles/trading_engine.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TradeTest.dir/build.make tests/CMakeFiles/TradeTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/TradeTest.dir/build.make tests/CMakeFiles/TradeTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=7,8 "Built target TradeTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=13,14 "Built target TradeTest"
 .PHONY : tests/CMakeFiles/TradeTest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/TradeTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/TradeTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 0
 .PHONY : tests/CMakeFiles/TradeTest.dir/rule
@@ -392,12 +398,12 @@ tests/CMakeFiles/OrderBookTest.dir/all: _deps/googletest-build/googletest/CMakeF
 tests/CMakeFiles/OrderBookTest.dir/all: src/CMakeFiles/trading_engine.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderBookTest.dir/build.make tests/CMakeFiles/OrderBookTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderBookTest.dir/build.make tests/CMakeFiles/OrderBookTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=3,4 "Built target OrderBookTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=7,8 "Built target OrderBookTest"
 .PHONY : tests/CMakeFiles/OrderBookTest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/OrderBookTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/OrderBookTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 0
 .PHONY : tests/CMakeFiles/OrderBookTest.dir/rule
@@ -420,12 +426,12 @@ tests/CMakeFiles/MatchingEngineTest.dir/all: _deps/googletest-build/googletest/C
 tests/CMakeFiles/MatchingEngineTest.dir/all: src/CMakeFiles/trading_engine.dir/all
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=1,2 "Built target MatchingEngineTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=5,6 "Built target MatchingEngineTest"
 .PHONY : tests/CMakeFiles/MatchingEngineTest.dir/all
 
 # Build rule for subdir invocation for target.
 tests/CMakeFiles/MatchingEngineTest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/MatchingEngineTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 0
 .PHONY : tests/CMakeFiles/MatchingEngineTest.dir/rule
@@ -438,6 +444,90 @@ MatchingEngineTest: tests/CMakeFiles/MatchingEngineTest.dir/rule
 tests/CMakeFiles/MatchingEngineTest.dir/clean:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/clean
 .PHONY : tests/CMakeFiles/MatchingEngineTest.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/EngineConfigTest.dir
+
+# All Build rule for target.
+tests/CMakeFiles/EngineConfigTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+tests/CMakeFiles/EngineConfigTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+tests/CMakeFiles/EngineConfigTest.dir/all: src/CMakeFiles/trading_engine.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EngineConfigTest.dir/build.make tests/CMakeFiles/EngineConfigTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EngineConfigTest.dir/build.make tests/CMakeFiles/EngineConfigTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=1,2 "Built target EngineConfigTest"
+.PHONY : tests/CMakeFiles/EngineConfigTest.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/EngineConfigTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 14
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/EngineConfigTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/EngineConfigTest.dir/rule
+
+# Convenience name for target.
+EngineConfigTest: tests/CMakeFiles/EngineConfigTest.dir/rule
+.PHONY : EngineConfigTest
+
+# clean rule for target.
+tests/CMakeFiles/EngineConfigTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/EngineConfigTest.dir/build.make tests/CMakeFiles/EngineConfigTest.dir/clean
+.PHONY : tests/CMakeFiles/EngineConfigTest.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/ExecutionReportTest.dir
+
+# All Build rule for target.
+tests/CMakeFiles/ExecutionReportTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+tests/CMakeFiles/ExecutionReportTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+tests/CMakeFiles/ExecutionReportTest.dir/all: src/CMakeFiles/trading_engine.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ExecutionReportTest.dir/build.make tests/CMakeFiles/ExecutionReportTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ExecutionReportTest.dir/build.make tests/CMakeFiles/ExecutionReportTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=3,4 "Built target ExecutionReportTest"
+.PHONY : tests/CMakeFiles/ExecutionReportTest.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/ExecutionReportTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 14
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/ExecutionReportTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/ExecutionReportTest.dir/rule
+
+# Convenience name for target.
+ExecutionReportTest: tests/CMakeFiles/ExecutionReportTest.dir/rule
+.PHONY : ExecutionReportTest
+
+# clean rule for target.
+tests/CMakeFiles/ExecutionReportTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ExecutionReportTest.dir/build.make tests/CMakeFiles/ExecutionReportTest.dir/clean
+.PHONY : tests/CMakeFiles/ExecutionReportTest.dir/clean
+
+#=============================================================================
+# Target rules for target tests/CMakeFiles/ServiceConfigTest.dir
+
+# All Build rule for target.
+tests/CMakeFiles/ServiceConfigTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
+tests/CMakeFiles/ServiceConfigTest.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
+tests/CMakeFiles/ServiceConfigTest.dir/all: src/CMakeFiles/trading_engine.dir/all
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ServiceConfigTest.dir/build.make tests/CMakeFiles/ServiceConfigTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ServiceConfigTest.dir/build.make tests/CMakeFiles/ServiceConfigTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles --progress-num=11,12 "Built target ServiceConfigTest"
+.PHONY : tests/CMakeFiles/ServiceConfigTest.dir/all
+
+# Build rule for subdir invocation for target.
+tests/CMakeFiles/ServiceConfigTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 14
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/ServiceConfigTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kurt/Documents/Developement/market-backend-system/build/CMakeFiles 0
+.PHONY : tests/CMakeFiles/ServiceConfigTest.dir/rule
+
+# Convenience name for target.
+ServiceConfigTest: tests/CMakeFiles/ServiceConfigTest.dir/rule
+.PHONY : ServiceConfigTest
+
+# clean rule for target.
+tests/CMakeFiles/ServiceConfigTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/ServiceConfigTest.dir/build.make tests/CMakeFiles/ServiceConfigTest.dir/clean
+.PHONY : tests/CMakeFiles/ServiceConfigTest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

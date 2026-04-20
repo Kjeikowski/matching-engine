@@ -1,0 +1,5 @@
+if(EXISTS "/home/kurt/Documents/Developement/market-backend-system/build/tests/ServiceConfigTest[1]_tests.cmake")
+  include("/home/kurt/Documents/Developement/market-backend-system/build/tests/ServiceConfigTest[1]_tests.cmake")
+else()
+  add_test(ServiceConfigTest_NOT_BUILT ServiceConfigTest_NOT_BUILT)
+endif()

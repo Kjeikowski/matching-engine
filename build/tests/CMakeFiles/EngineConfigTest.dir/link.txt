@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/EngineConfigTest.dir/unit/EngineConfigTest.cpp.o -o EngineConfigTest  ../src/libtrading_engine.a ../lib/libgtest_main.a ../lib/libgtest.a 

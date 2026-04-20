@@ -54,4 +54,6 @@ enum class Type { MARKET, LIMIT };
 
 enum class Status { NEW, PARTIALLY_FILLED, FILLED, CANCELED };
 
+
 }  // namespace trading::domain
+enum class ExecutionReportType { NEW, PARTIAL_FILL, FILL, CANCEL, REJECT };

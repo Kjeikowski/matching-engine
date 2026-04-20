@@ -8,3 +8,6 @@ include("/home/kurt/Documents/Developement/market-backend-system/build/tests/Ord
 include("/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest[1]_include.cmake")
 include("/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest[1]_include.cmake")
 include("/home/kurt/Documents/Developement/market-backend-system/build/tests/MatchingEngineTest[1]_include.cmake")
+include("/home/kurt/Documents/Developement/market-backend-system/build/tests/EngineConfigTest[1]_include.cmake")
+include("/home/kurt/Documents/Developement/market-backend-system/build/tests/ExecutionReportTest[1]_include.cmake")
+include("/home/kurt/Documents/Developement/market-backend-system/build/tests/ServiceConfigTest[1]_include.cmake")

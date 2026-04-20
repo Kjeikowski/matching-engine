@@ -7,49 +7,74 @@ namespace trading::domain {
 
 MatchingEngine::MatchingEngine() = default;
 
-std::vector<Trade> MatchingEngine::submitOrder(Order order) {
-  const Symbol& symbol = order.getSymbol();
+ExecutionReport MatchingEngine::submitOrder(Order order) {
+  Symbol symbol = order.getSymbol();
   const OrderId orderId = order.getOrderId();
+  const Quantity originalQty = order.getOriginalQuantity();
+  const Side side = order.getSide();
+  const Type orderType = order.getType();
+  const std::optional<Price> price = order.getPrice();
 
-  // Add to order-to-symbol map for tracking
   auto [it, inserted] = orderToSymbolMap_.insert({orderId, symbol});
   if (!inserted) {
     throw std::invalid_argument("Order ID already exists");
   }
 
-  // Get or create the order book for this symbol
   OrderBook& book = getOrCreateOrderBook(symbol);
 
-  // Process the order and collect trades
   std::vector<Trade> trades = book.addOrder(std::move(order));
 
-  // Track metrics
   for (const auto& trade : trades) {
     totalTrades_++;
     totalVolume_ += trade.getQuantity().value;
   }
 
-  return trades;
+  auto orderBookOpt = getOrderBook(symbol);
+  const OrderBook* orderBook = orderBookOpt ? *orderBookOpt : nullptr;
+  std::optional<Price> bestBid = orderBook ? orderBook->getBestBid() : std::nullopt;
+  std::optional<Price> bestAsk = orderBook ? orderBook->getBestAsk() : std::nullopt;
+
+  Timestamp timestamp{1234567890};
+
+  ExecutionReportType reportType;
+  Quantity remainingQty{0};
+
+  if (trades.empty()) {
+    reportType = ExecutionReportType::NEW;
+    remainingQty = originalQty;
+  } else {
+    Quantity filledQty{0};
+    for (const auto& trade : trades) {
+      filledQty.value += trade.getQuantity().value;
+    }
+    
+    if (filledQty.value == originalQty.value) {
+      reportType = ExecutionReportType::FILL;
+      remainingQty = Quantity{0};
+    } else {
+      reportType = ExecutionReportType::PARTIAL_FILL;
+      remainingQty = Quantity{originalQty.value - filledQty.value};
+    }
+  }
+
+  return ExecutionReport{orderId, reportType, symbol, side, orderType,
+                         originalQty, remainingQty, price, timestamp, trades};
 }
 
 bool MatchingEngine::cancelOrder(OrderId orderId) {
-  // Find the symbol for this order
   auto symbolIt = orderToSymbolMap_.find(orderId);
   if (symbolIt == orderToSymbolMap_.end()) {
-    return false;  // Order not found
+    return false;
   }
 
   const Symbol& symbol = symbolIt->second;
 
-  // Get the order book (should exist since we have it in the map)
   auto bookIt = orderBooks_.find(symbol.value);
   if (bookIt == orderBooks_.end()) {
-    return false;  // Order book disappeared (shouldn't happen)
+    return false;
   }
 
-  // Try to cancel the order
   if (bookIt->second.cancelOrder(orderId)) {
-    // Remove from tracking map
     orderToSymbolMap_.erase(symbolIt);
     return true;
   }

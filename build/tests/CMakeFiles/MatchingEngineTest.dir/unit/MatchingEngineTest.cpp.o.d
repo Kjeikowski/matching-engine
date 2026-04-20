@@ -324,4 +324,5 @@ tests/CMakeFiles/MatchingEngineTest.dir/unit/MatchingEngineTest.cpp.o: \
  /home/kurt/Documents/Developement/market-backend-system/include/domain/OrderBook.hpp \
  /usr/include/c++/13/deque /usr/include/c++/13/bits/stl_deque.h \
  /usr/include/c++/13/bits/deque.tcc \
- /home/kurt/Documents/Developement/market-backend-system/include/domain/Trade.hpp
+ /home/kurt/Documents/Developement/market-backend-system/include/domain/Trade.hpp \
+ /home/kurt/Documents/Developement/market-backend-system/include/domain/ExecutionReport.hpp

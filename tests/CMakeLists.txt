@@ -47,3 +47,39 @@ target_link_libraries(MatchingEngineTest
 )
 
 gtest_discover_tests(MatchingEngineTest)
+
+add_executable(EngineConfigTest
+    unit/EngineConfigTest.cpp
+)
+
+target_link_libraries(EngineConfigTest
+    PRIVATE
+    trading_engine
+    gtest_main
+)
+
+gtest_discover_tests(EngineConfigTest)
+
+add_executable(ExecutionReportTest
+    unit/ExecutionReportTest.cpp
+)
+
+target_link_libraries(ExecutionReportTest
+    PRIVATE
+    trading_engine
+    gtest_main
+)
+
+gtest_discover_tests(ExecutionReportTest)
+
+add_executable(ServiceConfigTest
+    unit/ServiceConfigTest.cpp
+)
+
+target_link_libraries(ServiceConfigTest
+    PRIVATE
+    trading_engine
+    gtest_main
+)
+
+gtest_discover_tests(ServiceConfigTest)

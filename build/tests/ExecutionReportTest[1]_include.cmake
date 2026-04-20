@@ -1,0 +1,5 @@
+if(EXISTS "/home/kurt/Documents/Developement/market-backend-system/build/tests/ExecutionReportTest[1]_tests.cmake")
+  include("/home/kurt/Documents/Developement/market-backend-system/build/tests/ExecutionReportTest[1]_tests.cmake")
+else()
+  add_test(ExecutionReportTest_NOT_BUILT ExecutionReportTest_NOT_BUILT)
+endif()
