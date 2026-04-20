@@ -288,6 +288,19 @@ OrderBookTest/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderBookTest.dir/build.make tests/CMakeFiles/OrderBookTest.dir/build
 .PHONY : OrderBookTest/fast
 
+#=============================================================================
+# Target rules for targets named MatchingEngineTest
+
+# Build rule for target.
+MatchingEngineTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MatchingEngineTest
+.PHONY : MatchingEngineTest
+
+# fast build rule for target.
+MatchingEngineTest/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/build
+.PHONY : MatchingEngineTest/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -302,6 +315,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... run_tests"
+	@echo "... MatchingEngineTest"
 	@echo "... OrderBookTest"
 	@echo "... OrderTest"
 	@echo "... TradeTest"

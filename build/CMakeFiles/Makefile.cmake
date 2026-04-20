@@ -174,4 +174,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "tests/CMakeFiles/OrderTest.dir/DependInfo.cmake"
   "tests/CMakeFiles/TradeTest.dir/DependInfo.cmake"
   "tests/CMakeFiles/OrderBookTest.dir/DependInfo.cmake"
+  "tests/CMakeFiles/MatchingEngineTest.dir/DependInfo.cmake"
   )

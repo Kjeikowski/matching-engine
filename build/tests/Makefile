@@ -213,6 +213,44 @@ OrderBookTest/fast:
 	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/OrderBookTest.dir/build.make tests/CMakeFiles/OrderBookTest.dir/build
 .PHONY : OrderBookTest/fast
 
+# Convenience name for target.
+tests/CMakeFiles/MatchingEngineTest.dir/rule:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/MatchingEngineTest.dir/rule
+.PHONY : tests/CMakeFiles/MatchingEngineTest.dir/rule
+
+# Convenience name for target.
+MatchingEngineTest: tests/CMakeFiles/MatchingEngineTest.dir/rule
+.PHONY : MatchingEngineTest
+
+# fast build rule for target.
+MatchingEngineTest/fast:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/build
+.PHONY : MatchingEngineTest/fast
+
+unit/MatchingEngineTest.o: unit/MatchingEngineTest.cpp.o
+.PHONY : unit/MatchingEngineTest.o
+
+# target to build an object file
+unit/MatchingEngineTest.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/unit/MatchingEngineTest.cpp.o
+.PHONY : unit/MatchingEngineTest.cpp.o
+
+unit/MatchingEngineTest.i: unit/MatchingEngineTest.cpp.i
+.PHONY : unit/MatchingEngineTest.i
+
+# target to preprocess a source file
+unit/MatchingEngineTest.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/unit/MatchingEngineTest.cpp.i
+.PHONY : unit/MatchingEngineTest.cpp.i
+
+unit/MatchingEngineTest.s: unit/MatchingEngineTest.cpp.s
+.PHONY : unit/MatchingEngineTest.s
+
+# target to generate assembly for a file
+unit/MatchingEngineTest.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/MatchingEngineTest.dir/build.make tests/CMakeFiles/MatchingEngineTest.dir/unit/MatchingEngineTest.cpp.s
+.PHONY : unit/MatchingEngineTest.cpp.s
+
 unit/OrderBookTest.o: unit/OrderBookTest.cpp.o
 .PHONY : unit/OrderBookTest.o
 
@@ -298,9 +336,13 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... MatchingEngineTest"
 	@echo "... OrderBookTest"
 	@echo "... OrderTest"
 	@echo "... TradeTest"
+	@echo "... unit/MatchingEngineTest.o"
+	@echo "... unit/MatchingEngineTest.i"
+	@echo "... unit/MatchingEngineTest.s"
 	@echo "... unit/OrderBookTest.o"
 	@echo "... unit/OrderBookTest.i"
 	@echo "... unit/OrderBookTest.s"

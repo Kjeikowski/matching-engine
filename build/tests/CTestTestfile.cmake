@@ -7,3 +7,4 @@
 include("/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderTest[1]_include.cmake")
 include("/home/kurt/Documents/Developement/market-backend-system/build/tests/TradeTest[1]_include.cmake")
 include("/home/kurt/Documents/Developement/market-backend-system/build/tests/OrderBookTest[1]_include.cmake")
+include("/home/kurt/Documents/Developement/market-backend-system/build/tests/MatchingEngineTest[1]_include.cmake")

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o"
+  "CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o.d"
   "CMakeFiles/trading_engine.dir/domain/Order.cpp.o"
   "CMakeFiles/trading_engine.dir/domain/Order.cpp.o.d"
   "CMakeFiles/trading_engine.dir/domain/OrderBook.cpp.o"

@@ -13,6 +13,10 @@ struct TradeId {
 struct Symbol {
   explicit Symbol(std::string v) : value(v) {}
   std::string value;
+  
+  bool operator<(const Symbol& other) const noexcept {
+    return value < other.value;
+  }
 };
 
 struct SequenceNumber {
@@ -23,6 +27,10 @@ struct SequenceNumber {
 struct OrderId {
   explicit OrderId(std::int64_t v) : value(v) {}
   std::int64_t value;
+  
+  bool operator<(const OrderId& other) const noexcept {
+    return value < other.value;
+  }
 };
 
 struct Quantity {

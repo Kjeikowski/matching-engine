@@ -185,6 +185,30 @@ trading_engine/fast:
 	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/build
 .PHONY : trading_engine/fast
 
+domain/MatchingEngine.o: domain/MatchingEngine.cpp.o
+.PHONY : domain/MatchingEngine.o
+
+# target to build an object file
+domain/MatchingEngine.cpp.o:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.o
+.PHONY : domain/MatchingEngine.cpp.o
+
+domain/MatchingEngine.i: domain/MatchingEngine.cpp.i
+.PHONY : domain/MatchingEngine.i
+
+# target to preprocess a source file
+domain/MatchingEngine.cpp.i:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.i
+.PHONY : domain/MatchingEngine.cpp.i
+
+domain/MatchingEngine.s: domain/MatchingEngine.cpp.s
+.PHONY : domain/MatchingEngine.s
+
+# target to generate assembly for a file
+domain/MatchingEngine.cpp.s:
+	cd /home/kurt/Documents/Developement/market-backend-system/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/trading_engine.dir/build.make src/CMakeFiles/trading_engine.dir/domain/MatchingEngine.cpp.s
+.PHONY : domain/MatchingEngine.cpp.s
+
 domain/Order.o: domain/Order.cpp.o
 .PHONY : domain/Order.o
 
@@ -271,6 +295,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... trading_engine"
+	@echo "... domain/MatchingEngine.o"
+	@echo "... domain/MatchingEngine.i"
+	@echo "... domain/MatchingEngine.s"
 	@echo "... domain/Order.o"
 	@echo "... domain/Order.i"
 	@echo "... domain/Order.s"

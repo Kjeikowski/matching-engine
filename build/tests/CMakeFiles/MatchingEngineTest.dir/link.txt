@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/MatchingEngineTest.dir/unit/MatchingEngineTest.cpp.o -o MatchingEngineTest  ../src/libtrading_engine.a ../lib/libgtest_main.a ../lib/libgtest.a 

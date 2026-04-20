@@ -1,0 +1,5 @@
+if(EXISTS "/home/kurt/Documents/Developement/market-backend-system/build/tests/MatchingEngineTest[1]_tests.cmake")
+  include("/home/kurt/Documents/Developement/market-backend-system/build/tests/MatchingEngineTest[1]_tests.cmake")
+else()
+  add_test(MatchingEngineTest_NOT_BUILT MatchingEngineTest_NOT_BUILT)
+endif()

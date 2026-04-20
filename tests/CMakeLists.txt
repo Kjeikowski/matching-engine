@@ -35,3 +35,15 @@ target_link_libraries(OrderBookTest
 )
 
 gtest_discover_tests(OrderBookTest)
+
+add_executable(MatchingEngineTest
+    unit/MatchingEngineTest.cpp
+)
+
+target_link_libraries(MatchingEngineTest
+    PRIVATE
+    trading_engine
+    gtest_main
+)
+
+gtest_discover_tests(MatchingEngineTest)
